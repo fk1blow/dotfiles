@@ -1,0 +1,645 @@
+{
+	"folder_history":
+	[
+		"/home/abularca/Work/rain_sdk_1and1",
+		"/home/abularca/Work/rain"
+	],
+	"last_window_id": 3,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"node",
+						"module._nodeModulePaths(from);"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 57.0,
+				"selected_items":
+				[
+					[
+						"git mer",
+						"Git: Merge Branch"
+					],
+					[
+						"",
+						"Git: Change Branch"
+					],
+					[
+						"git ",
+						"Git: Change Branch"
+					],
+					[
+						"git merge",
+						"Git: Merge Branch"
+					],
+					[
+						"git che",
+						"Git: Change Branch"
+					],
+					[
+						"templa",
+						"Create file from Template"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"node",
+						"Snippet: Snippet: NodeJS EventEmitter"
+					],
+					[
+						"npm",
+						"Nodejs::NPM::Install"
+					],
+					[
+						"git push",
+						"Git: Push"
+					],
+					[
+						"git p",
+						"Git: Pull"
+					],
+					[
+						"git commit",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add..."
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"lint",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"gist",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 435.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/abularca/Work/rain/lib/server.js",
+				"/home/abularca/Work/rain/lib/component_registry.js",
+				"/home/abularca/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/abularca/.config/sublime-text-2/Packages/Nodejs/Nodejs.sublime-settings",
+				"/home/abularca/Work/rain/.gitignore",
+				"/home/abularca/Work/rain/doc/source/server/error_component.rst",
+				"/home/abularca/.config/sublime-text-2/Packages/SublimeLinter/Base File.sublime-settings",
+				"/home/abularca/Work/rain/server.log",
+				"/home/abularca/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"tab",
+					"true"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 32.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 110.0
+			},
+			"output.git":
+			{
+				"height": 110.0
+			},
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"error_",
+						"doc/source/server/error_component.rst"
+					],
+					[
+						"com",
+						"lib/component_registry.js"
+					],
+					[
+						"compone",
+						"lib/component_registry.js"
+					],
+					[
+						"server",
+						"lib/server.js"
+					],
+					[
+						"server.js",
+						"lib/server.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"node",
+						"module._nodeModulePaths(from);"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/abularca/Work/rain/components/example_new/meta.json",
+					"settings":
+					{
+						"buffer_size": 406,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/abularca/Work/rain/components/example_new/client/templates/postit.html",
+					"settings":
+					{
+						"buffer_size": 86,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/abularca/Work/rain/components/example_new/client/css/postit.css",
+					"settings":
+					{
+						"buffer_size": 191,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 57.0,
+				"selected_items":
+				[
+					[
+						"template",
+						"Create file from Template"
+					],
+					[
+						"git pull",
+						"Git: Pull"
+					],
+					[
+						"git add",
+						"Git: Add..."
+					],
+					[
+						"git mer",
+						"Git: Merge Branch"
+					],
+					[
+						"",
+						"Git: Change Branch"
+					],
+					[
+						"git ",
+						"Git: Change Branch"
+					],
+					[
+						"git merge",
+						"Git: Merge Branch"
+					],
+					[
+						"git che",
+						"Git: Change Branch"
+					],
+					[
+						"templa",
+						"Create file from Template"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"node",
+						"Snippet: Snippet: NodeJS EventEmitter"
+					],
+					[
+						"npm",
+						"Nodejs::NPM::Install"
+					],
+					[
+						"git push",
+						"Git: Push"
+					],
+					[
+						"git p",
+						"Git: Pull"
+					],
+					[
+						"git commit",
+						"Git: Commit"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"lint",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"gist",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 561.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/abularca/Work/rain/lib/proxy_store.js",
+				"/home/abularca/.config/sublime-text-2/Packages/SublimeLinter/Base File.sublime-settings",
+				"/home/abularca/Work/rain/lib/server.js",
+				"/home/abularca/Work/rain/lib/component_registry.js",
+				"/home/abularca/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/abularca/.config/sublime-text-2/Packages/Nodejs/Nodejs.sublime-settings",
+				"/home/abularca/Work/rain/.gitignore",
+				"/home/abularca/Work/rain/doc/source/server/error_component.rst",
+				"/home/abularca/Work/rain/server.log",
+				"/home/abularca/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"tab",
+					"true"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/abularca/Work/rain"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/abularca/Work/rain/components/example_new/meta.json",
+							"settings":
+							{
+								"buffer_size": 406,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										326,
+										326
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/abularca/Work/rain/components/example_new/client/templates/postit.html",
+							"settings":
+							{
+								"buffer_size": 86,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										72,
+										72
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/abularca/Work/rain/components/example_new/client/css/postit.css",
+							"settings":
+							{
+								"buffer_size": 191,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										46,
+										46
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 32.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 110.0
+			},
+			"output.git":
+			{
+				"height": 110.0
+			},
+			"position": "0,1,0,0,0,1561,0,2201,480,2560,1024",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"prox",
+						"lib/proxy_store.js"
+					],
+					[
+						"proxy",
+						"lib/proxy_store.js"
+					],
+					[
+						"error_",
+						"doc/source/server/error_component.rst"
+					],
+					[
+						"com",
+						"lib/component_registry.js"
+					],
+					[
+						"compone",
+						"lib/component_registry.js"
+					],
+					[
+						"server",
+						"lib/server.js"
+					],
+					[
+						"server.js",
+						"lib/server.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"window_id": 2,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

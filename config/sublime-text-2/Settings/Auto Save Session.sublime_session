@@ -1,0 +1,2961 @@
+{
+	"folder_history":
+	[
+		"/home/abularca/Work/sprint",
+		"/home/abularca/Work/rainjs",
+		"/home/abularca/Work/rain",
+		"/home/abularca/Work/test",
+		"/home/abularca/Work/rain_sdk_1and1"
+	],
+	"last_window_id": 14,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"intent",
+						"intent_security"
+					],
+					[
+						"verda",
+						"Verdana, Geneva, Arial, Helvetica, sans-serif"
+					],
+					[
+						"node",
+						"module._nodeModulePaths(from);"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 80.0,
+				"selected_items":
+				[
+					[
+						"git pul",
+						"Git: Pull"
+					],
+					[
+						"commit",
+						"Git: Commit"
+					],
+					[
+						"javascript",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"snippet",
+						"Snippet: expect not"
+					],
+					[
+						"Snippet: ",
+						"Snippet: describe"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"git push",
+						"Git: Push"
+					],
+					[
+						"git commit ",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add Current File"
+					],
+					[
+						"git commit",
+						"Git: Commit"
+					],
+					[
+						"git add ",
+						"Git: Add Current File"
+					],
+					[
+						"git pull",
+						"Git: Pull"
+					],
+					[
+						"push",
+						"Git: Push"
+					],
+					[
+						"pull",
+						"Git: Pull"
+					],
+					[
+						"javascri",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"git commi",
+						"Git: Commit"
+					],
+					[
+						"template",
+						"Create file from Template"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"git stash",
+						"Git: Stash Pop"
+					],
+					[
+						"less",
+						"Set Syntax: LESS"
+					],
+					[
+						"git d",
+						"Git: Diff Tool"
+					],
+					[
+						"git comm",
+						"Git: Commit"
+					],
+					[
+						"git pu",
+						"Git: Pull"
+					],
+					[
+						"git mer",
+						"Git: Merge Branch"
+					],
+					[
+						"",
+						"Git: Change Branch"
+					],
+					[
+						"git ",
+						"Git: Change Branch"
+					],
+					[
+						"git merge",
+						"Git: Merge Branch"
+					],
+					[
+						"git che",
+						"Git: Change Branch"
+					],
+					[
+						"templa",
+						"Create file from Template"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"node",
+						"Snippet: Snippet: NodeJS EventEmitter"
+					],
+					[
+						"npm",
+						"Nodejs::NPM::Install"
+					],
+					[
+						"git p",
+						"Git: Pull"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"lint",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"gist",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 453.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/abularca/Work/rainjs/conf/server.conf.default",
+				"/home/abularca/Work/rainjs/lib/component_registry.js",
+				"/home/abularca/Work/rainjs/lib/renderer.js",
+				"/home/abularca/Work/rainjs/node_modules/connect/lib/middleware/session/memory.js",
+				"/home/abularca/Work/rainjs/node_modules/connect/lib/middleware/session/session.js",
+				"/home/abularca/Work/rainjs/node_modules/connect/lib/middleware/session/store.js",
+				"/home/abularca/Work/rainjs/node_modules/connect/lib/middleware/session.js",
+				"/home/abularca/Work/rainjs/tests/client/lib/jasmine-rain/jasmine_rain.js",
+				"/home/abularca/Work/rainjs/tests/client/tests/translation.spec.js",
+				"/home/abularca/Work/rainjs/doc/source/client/localization.rst",
+				"/home/abularca/Work/rainjs/components/example_list/client/js/client_side_text_localization.js",
+				"/home/abularca/Work/rainjs/components/example_list/locale/ro_RO/messages.po",
+				"/home/abularca/Work/rainjs/components/core/client/js/translation.js",
+				"/home/abularca/Work/rainjs/doc/source/server/authorization.rst",
+				"/home/abularca/Work/rainjs/doc/source/index.rst",
+				"/home/abularca/Work/rainjs/tests/client/lib/bootstrap.js",
+				"/home/abularca/Work/rainjs/lib/server.js",
+				"/home/abularca/Work/sprint/conf/server.conf.default",
+				"/home/abularca/Work/rainjs/components/example_list/client/templates/client_side_text_localization.html",
+				"/home/abularca/Work/rainjs/tests/client/tests/require_json.spec.js",
+				"/home/abularca/Work/rainjs/lib/registry/precompile_less.js",
+				"/home/abularca/Work/rainjs/components/example_list/client/js/index.js",
+				"/home/abularca/Work/rainjs/tests/client/mocks/mocks.js",
+				"/home/abularca/Work/rainjs/tests/client/conf/ClientTests.jstd",
+				"/home/abularca/Work/rainjs/tests/client/mocks/asd.js",
+				"/home/abularca/Work/rainjs/Jakefile",
+				"/home/abularca/Work/rainjs/components/core/client/js/lib/require-locale.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/raintime.js",
+				"/home/abularca/Work/rainjs/bin/rain.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/lib/jed.js",
+				"/home/abularca/Work/rainjs/doc/source/getting_started/installation.rst",
+				"/home/abularca/Work/rainjs/doc/source/conf.py",
+				"/home/abularca/Work/rain/bin/rain",
+				"/home/abularca/Work/rain/doc/source/proposals/Features-proposal-text-transport.rst",
+				"/home/abularca/Work/rain/doc/source/proposals/Feature-proposal-text-transport.rst",
+				"/home/abularca/Work/rain/doc/source/proposals/Features-proposal-view-authorization.rst",
+				"/home/abularca/Work/rain/lib/socket_registry.js",
+				"/home/abularca/Work/rain/doc/source/proposals/Features-proposal-client-contexts.rst",
+				"/home/abularca/Work/rain/lib/registry/websockets.js",
+				"/home/abularca/Work/rain/bin/lib/utils.js",
+				"/home/abularca/Work/rain/lib/server.js",
+				"/home/abularca/Work/rain/start",
+				"/home/abularca/Work/rain/lib/po_utils.js",
+				"/home/abularca/Work/rain/tests/server/tests/text_localization.spec.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/components/example_4_5_2/locale/en_US/messages.po",
+				"/home/abularca/Work/rain/components/example_list/meta.json",
+				"/home/abularca/Work/rain/tests/server/tests/po_utils.spec.js",
+				"/home/abularca/Work/rain/lib/registry/intents.js",
+				"/home/abularca/Work/rain/tests/server/tests/intent_registry.spec.js",
+				"/home/abularca/Work/rain/components/example_list/client/templates/text_localization.html",
+				"/home/abularca/Work/rain/lib/po_utils.spec.js",
+				"/home/abularca/Work/rain/lib/translation.js",
+				"/home/abularca/Work/rain/lib/component_registry.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/server.conf",
+				"/home/abularca/Work/rain/tests/server/tests/configuration.spec.js",
+				"/home/abularca/Work/rain/lib/registry/load_translation_files.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/server_two.conf",
+				"/home/abularca/Work/rain/Jakefile",
+				"/home/abularca/Work/rain/tests/server/tests/registry/websockets.spec.js",
+				"/home/abularca/Work/rain/tests/server/tests/registry/precompile_templates.spec.js",
+				"/home/abularca/Work/rain/components/example_list/server/data.js",
+				"/home/abularca/Work/rain/lib/module.js",
+				"/home/abularca/Work/rain/conf/server.conf.default",
+				"/home/abularca/Work/rain/components/example_list/server/controller/index.js",
+				"/home/abularca/Work/rain/components/core/client/js/context.js",
+				"/home/abularca/Work/rain/components/example_list/server/websockets/socket.js",
+				"/home/abularca/Work/rain/components/example_list/locale/en_US/messages.po",
+				"/home/abularca/Work/rain/lib/intent_registry.js",
+				"/home/abularca/Work/rain/doc/source/server/messaging_intents.rst",
+				"/home/abularca/Work/rain/components/example_list/client/js/intent_security.js",
+				"/home/abularca/Work/rain/doc/source/server/authorization.rst",
+				"/home/abularca/Work/rain/components/example_2_0/meta.json",
+				"/home/abularca/Work/rain/tests/client/lib/jasmine-rain/jasmine_rain.js",
+				"/home/abularca/Work/rain/lib/handlebars.js",
+				"/home/abularca/Work/rain/tests/client/conf/ClientTests.jstd",
+				"/home/abularca/Work/rain/lib/routes/controller.js",
+				"/home/abularca/Work/rain/lib/data_layer.js",
+				"/home/abularca/Work/rain/lib/handlebars/component.js",
+				"/home/abularca/Work/rain/lib/handlebars/css.js",
+				"/home/abularca/Work/rain/lib/handlebars/translation.js",
+				"/home/abularca/Work/rain/lib/handlebars/translation_plural.js",
+				"/home/abularca/Work/rain/tests/server/tests/module.spec.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/modules/lib1.js",
+				"/home/abularca/Work/rain/tests/server/tests/routes/controller.spec.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/components/example/server/controller/index.js",
+				"/home/abularca/Work/rain/tests/server/tests/util.spec.js",
+				"/home/abularca/Work/rain/lib/util.js",
+				"/home/abularca/Work/rain/components/core/client/js/raintime.js",
+				"/home/abularca/Work/rain/lib/globals.js",
+				"/home/abularca/Work/rain/lib/renderer.js",
+				"/home/abularca/Work/rain/components/core/client/js/messaging/observer.js",
+				"/home/abularca/Work/rain/components/core/client/js/dialog.js",
+				"/home/abularca/Work/rain/lib/router_utils.js",
+				"/home/abularca/Work/rain/lib/rain_error.js",
+				"/home/abularca/Work/rain/dsa.js",
+				"/home/abularca/Work/rain/components/example_list/client/js/index.js",
+				"/home/abularca/.bashrc",
+				"/home/abularca/.config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/abularca/Work/rain/components/example_list/client/templates/index.html",
+				"/home/abularca/Work/rain/components/example_list/client/templates/intent_security.html",
+				"/home/abularca/Work/rain/components/example_list/client/templates/denied.html",
+				"/home/abularca/Work/rain/components/core/client/css/modal.css",
+				"/home/abularca/Work/rain/client-test.sh",
+				"/home/abularca/Work/rain/components/core/client/templates/dialog.html",
+				"/home/abularca/Work/rain/components/example_2_0/client/templates/index.html",
+				"/home/abularca/Work/rain/components/core/client/js/client_rendering.js",
+				"/home/abularca/Work/rain/components/example_2_0/server/authorization.js",
+				"/home/abularca/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/abularca/Work/rain/components/example_2_0/client/js/index.js",
+				"/home/abularca/Work/rain/components/example_2_0/server/controller/index.js",
+				"/home/abularca/Work/rain/components/example_new/client/css/postit.css",
+				"/home/abularca/Work/rain/components/example_new/client/templates/postit.html",
+				"/home/abularca/Work/rain/components/example_new/meta.json",
+				"/home/abularca/Work/rain/lib/proxy_store.js",
+				"/home/abularca/.config/sublime-text-2/Packages/SublimeLinter/Base File.sublime-settings",
+				"/home/abularca/.config/sublime-text-2/Packages/Nodejs/Nodejs.sublime-settings",
+				"/home/abularca/Work/rain/.gitignore",
+				"/home/abularca/Work/rain/doc/source/server/error_component.rst",
+				"/home/abularca/Work/rain/server.log",
+				"/home/abularca/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"/home/abularca/Work/rain/bin",
+					"/home/abularca/Work/rain/lib"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"util",
+					"generate",
+					"mock",
+					"spy",
+					".spec",
+					"prototype.it",
+					"cache",
+					"load",
+					"spyon",
+					"inherits",
+					"currentspec",
+					"coreComponentsName",
+					"setupProject",
+					"createProject",
+					"require",
+					"Rain",
+					"getServerPIDContent",
+					"server.initi",
+					"var server",
+					"server",
+					"server.init",
+					"existsSync",
+					"getFolder",
+					"loadlan",
+					"console",
+					"            ",
+					"generateContext",
+					")",
+					"requireWithContext",
+					"loadmodule",
+					"require",
+					"data",
+					"extend",
+					"you need to specify a contro",
+					"\n    \"intents\": [{\n        \"category\": \"com.rain.example.security\",\n        \"action\": \"ALLOWED_VIEW\",\n        \"type\": \"view\",\n        \"view\": \"level1\"\n    }",
+					"\": {}",
+					"\n        <h3><a href=\"#\">CSS cross referencing</a></h3>\n        <div data-example-view=\"css_cross_referencing\"></div>",
+					"isAuthorized",
+					"auth",
+					"tab",
+					"true"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 32.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"module.",
+						"lib/module.js"
+					],
+					[
+						"server.c",
+						"conf/server.conf.default"
+					],
+					[
+						"server",
+						"lib/server.js"
+					],
+					[
+						"proxy",
+						"lib/proxy_store.js"
+					],
+					[
+						"renderer",
+						"lib/renderer.js"
+					],
+					[
+						"compone",
+						"lib/component_registry.js"
+					],
+					[
+						"jstd",
+						"tests/client/conf/ClientTests.jstd"
+					],
+					[
+						"jakefi",
+						"Jakefile"
+					],
+					[
+						"bin/rain",
+						"bin/rain"
+					],
+					[
+						"text-tran",
+						"doc/source/proposals/Features-proposal-text-transport.rst"
+					],
+					[
+						"socket_re",
+						"lib/socket_registry.js"
+					],
+					[
+						"compo",
+						"lib/component_registry.js"
+					],
+					[
+						"component",
+						"lib/component_registry.js"
+					],
+					[
+						"module",
+						"lib/module.js"
+					],
+					[
+						"example_list/server/data.js",
+						"components/example_list/server/data.js"
+					],
+					[
+						"example_list/client/js/intent",
+						"components/example_list/client/js/intent_security.js"
+					],
+					[
+						"websockets",
+						"lib/registry/websockets.js"
+					],
+					[
+						"trans",
+						"lib/translation.js"
+					],
+					[
+						"intent",
+						"lib/intent_registry.js"
+					],
+					[
+						"raintime",
+						"components/core/client/js/raintime.js"
+					],
+					[
+						"dialog",
+						"components/core/client/templates/dialog.html"
+					],
+					[
+						"prox",
+						"lib/proxy_store.js"
+					],
+					[
+						"error_",
+						"doc/source/server/error_component.rst"
+					],
+					[
+						"com",
+						"lib/component_registry.js"
+					],
+					[
+						"server.js",
+						"lib/server.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 225.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"intent",
+						"intent_security"
+					],
+					[
+						"verda",
+						"Verdana, Geneva, Arial, Helvetica, sans-serif"
+					],
+					[
+						"node",
+						"module._nodeModulePaths(from);"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/abularca/Work/rainjs/node_modules/connect/lib/middleware/session.js",
+					"settings":
+					{
+						"buffer_size": 8974,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/abularca/Work/rainjs/node_modules/connect/lib/middleware/session/session.js",
+					"settings":
+					{
+						"buffer_size": 2466,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 80.0,
+				"selected_items":
+				[
+					[
+						"javasc",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"json",
+						"Set Syntax: JSON"
+					],
+					[
+						"javascript",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"snippet",
+						"Snippet: expect not"
+					],
+					[
+						"Snippet: ",
+						"Snippet: describe"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"git push",
+						"Git: Push"
+					],
+					[
+						"git commit ",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add Current File"
+					],
+					[
+						"git commit",
+						"Git: Commit"
+					],
+					[
+						"git add ",
+						"Git: Add Current File"
+					],
+					[
+						"git pull",
+						"Git: Pull"
+					],
+					[
+						"push",
+						"Git: Push"
+					],
+					[
+						"pull",
+						"Git: Pull"
+					],
+					[
+						"javascri",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"git commi",
+						"Git: Commit"
+					],
+					[
+						"template",
+						"Create file from Template"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"git stash",
+						"Git: Stash Pop"
+					],
+					[
+						"less",
+						"Set Syntax: LESS"
+					],
+					[
+						"git d",
+						"Git: Diff Tool"
+					],
+					[
+						"git comm",
+						"Git: Commit"
+					],
+					[
+						"git pu",
+						"Git: Pull"
+					],
+					[
+						"git mer",
+						"Git: Merge Branch"
+					],
+					[
+						"",
+						"Git: Change Branch"
+					],
+					[
+						"git ",
+						"Git: Change Branch"
+					],
+					[
+						"git merge",
+						"Git: Merge Branch"
+					],
+					[
+						"git che",
+						"Git: Change Branch"
+					],
+					[
+						"templa",
+						"Create file from Template"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"node",
+						"Snippet: Snippet: NodeJS EventEmitter"
+					],
+					[
+						"npm",
+						"Nodejs::NPM::Install"
+					],
+					[
+						"git p",
+						"Git: Pull"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"lint",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"gist",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 435.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/abularca/Work/rainjs/tests/client/lib/jasmine/lib/jasmine-core/jasmine.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/translation.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/lib/require-locale.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/lib/require-jquery.js",
+				"/home/abularca/Work/rainjs/doc/source/server/localization.rst",
+				"/home/abularca/.zshrc",
+				"/home/abularca/.oh-my-zsh/themes/arcade.zsh-theme",
+				"/home/abularca/Work/rainjs/lib/configuration.js",
+				"/home/abularca/Work/rainjs/lib/registry/precompile_less.js",
+				"/home/abularca/Work/rainjs/components/example_list/client/js/index.js",
+				"/home/abularca/Work/rainjs/tests/client/mocks/mocks.js",
+				"/home/abularca/Work/rainjs/tests/client/conf/ClientTests.jstd",
+				"/home/abularca/Work/rainjs/tests/client/mocks/asd.js",
+				"/home/abularca/Work/rainjs/Jakefile",
+				"/home/abularca/Work/rainjs/conf/server.conf.default",
+				"/home/abularca/Work/rainjs/components/core/client/js/raintime.js",
+				"/home/abularca/Work/rainjs/bin/rain.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/lib/jed.js",
+				"/home/abularca/Work/rainjs/doc/source/index.rst",
+				"/home/abularca/Work/rainjs/doc/source/getting_started/installation.rst",
+				"/home/abularca/Work/rainjs/doc/source/conf.py",
+				"/home/abularca/Work/rain/bin/rain",
+				"/home/abularca/Work/rain/doc/source/proposals/Features-proposal-text-transport.rst",
+				"/home/abularca/Work/rain/doc/source/proposals/Feature-proposal-text-transport.rst",
+				"/home/abularca/Work/rain/doc/source/proposals/Features-proposal-view-authorization.rst",
+				"/home/abularca/Work/rain/lib/socket_registry.js",
+				"/home/abularca/Work/rain/doc/source/proposals/Features-proposal-client-contexts.rst",
+				"/home/abularca/Work/rain/lib/registry/websockets.js",
+				"/home/abularca/Work/rain/bin/lib/utils.js",
+				"/home/abularca/Work/rain/lib/server.js",
+				"/home/abularca/Work/rain/start",
+				"/home/abularca/Work/rain/lib/po_utils.js",
+				"/home/abularca/Work/rain/tests/server/tests/text_localization.spec.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/components/example_4_5_2/locale/en_US/messages.po",
+				"/home/abularca/Work/rain/components/example_list/meta.json",
+				"/home/abularca/Work/rain/tests/server/tests/po_utils.spec.js",
+				"/home/abularca/Work/rain/lib/registry/intents.js",
+				"/home/abularca/Work/rain/tests/server/tests/intent_registry.spec.js",
+				"/home/abularca/Work/rain/components/example_list/client/templates/text_localization.html",
+				"/home/abularca/Work/rain/lib/po_utils.spec.js",
+				"/home/abularca/Work/rain/lib/translation.js",
+				"/home/abularca/Work/rain/lib/component_registry.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/server.conf",
+				"/home/abularca/Work/rain/tests/server/tests/configuration.spec.js",
+				"/home/abularca/Work/rain/lib/registry/load_translation_files.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/server_two.conf",
+				"/home/abularca/Work/rain/Jakefile",
+				"/home/abularca/Work/rain/tests/server/tests/registry/websockets.spec.js",
+				"/home/abularca/Work/rain/tests/server/tests/registry/precompile_templates.spec.js",
+				"/home/abularca/Work/rain/components/example_list/server/data.js",
+				"/home/abularca/Work/rain/lib/module.js",
+				"/home/abularca/Work/rain/conf/server.conf.default",
+				"/home/abularca/Work/rain/components/example_list/server/controller/index.js",
+				"/home/abularca/Work/rain/components/core/client/js/context.js",
+				"/home/abularca/Work/rain/components/example_list/server/websockets/socket.js",
+				"/home/abularca/Work/rain/components/example_list/locale/en_US/messages.po",
+				"/home/abularca/Work/rain/lib/intent_registry.js",
+				"/home/abularca/Work/rain/doc/source/server/messaging_intents.rst",
+				"/home/abularca/Work/rain/components/example_list/client/js/intent_security.js",
+				"/home/abularca/Work/rain/doc/source/server/authorization.rst",
+				"/home/abularca/Work/rain/components/example_2_0/meta.json",
+				"/home/abularca/Work/rain/tests/client/lib/jasmine-rain/jasmine_rain.js",
+				"/home/abularca/Work/rain/lib/handlebars.js",
+				"/home/abularca/Work/rain/tests/client/conf/ClientTests.jstd",
+				"/home/abularca/Work/rain/lib/routes/controller.js",
+				"/home/abularca/Work/rain/lib/data_layer.js",
+				"/home/abularca/Work/rain/lib/handlebars/component.js",
+				"/home/abularca/Work/rain/lib/handlebars/css.js",
+				"/home/abularca/Work/rain/lib/handlebars/translation.js",
+				"/home/abularca/Work/rain/lib/handlebars/translation_plural.js",
+				"/home/abularca/Work/rain/tests/server/tests/module.spec.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/modules/lib1.js",
+				"/home/abularca/Work/rain/tests/server/tests/routes/controller.spec.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/components/example/server/controller/index.js",
+				"/home/abularca/Work/rain/tests/server/tests/util.spec.js",
+				"/home/abularca/Work/rain/lib/util.js",
+				"/home/abularca/Work/rain/components/core/client/js/raintime.js",
+				"/home/abularca/Work/rain/lib/globals.js",
+				"/home/abularca/Work/rain/lib/renderer.js",
+				"/home/abularca/Work/rain/components/core/client/js/messaging/observer.js",
+				"/home/abularca/Work/rain/components/core/client/js/dialog.js",
+				"/home/abularca/Work/rain/lib/router_utils.js",
+				"/home/abularca/Work/rain/lib/rain_error.js",
+				"/home/abularca/Work/rain/dsa.js",
+				"/home/abularca/Work/rain/components/example_list/client/js/index.js",
+				"/home/abularca/.bashrc",
+				"/home/abularca/.config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/abularca/Work/rain/components/example_list/client/templates/index.html",
+				"/home/abularca/Work/rain/components/example_list/client/templates/intent_security.html",
+				"/home/abularca/Work/rain/components/example_list/client/templates/denied.html",
+				"/home/abularca/Work/rain/components/core/client/css/modal.css",
+				"/home/abularca/Work/rain/client-test.sh",
+				"/home/abularca/Work/rain/components/core/client/templates/dialog.html",
+				"/home/abularca/Work/rain/components/example_2_0/client/templates/index.html",
+				"/home/abularca/Work/rain/components/core/client/js/client_rendering.js",
+				"/home/abularca/Work/rain/components/example_2_0/server/authorization.js",
+				"/home/abularca/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/abularca/Work/rain/components/example_2_0/client/js/index.js",
+				"/home/abularca/Work/rain/components/example_2_0/server/controller/index.js",
+				"/home/abularca/Work/rain/components/example_new/client/css/postit.css",
+				"/home/abularca/Work/rain/components/example_new/client/templates/postit.html",
+				"/home/abularca/Work/rain/components/example_new/meta.json",
+				"/home/abularca/Work/rain/lib/proxy_store.js",
+				"/home/abularca/.config/sublime-text-2/Packages/SublimeLinter/Base File.sublime-settings",
+				"/home/abularca/.config/sublime-text-2/Packages/Nodejs/Nodejs.sublime-settings",
+				"/home/abularca/Work/rain/.gitignore",
+				"/home/abularca/Work/rain/doc/source/server/error_component.rst",
+				"/home/abularca/Work/rain/server.log",
+				"/home/abularca/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"/home/abularca/Work/rain/bin",
+					"/home/abularca/Work/rain/lib"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"spy",
+					".spec",
+					"prototype.it",
+					"cache",
+					"load",
+					"spyon",
+					"inherits",
+					"currentspec",
+					"coreComponentsName",
+					"setupProject",
+					"createProject",
+					"require",
+					"Rain",
+					"getServerPIDContent",
+					"server.initi",
+					"var server",
+					"server",
+					"server.init",
+					"existsSync",
+					"getFolder",
+					"loadlan",
+					"console",
+					"            ",
+					"generateContext",
+					")",
+					"requireWithContext",
+					"loadmodule",
+					"require",
+					"data",
+					"extend",
+					"you need to specify a contro",
+					"\n    \"intents\": [{\n        \"category\": \"com.rain.example.security\",\n        \"action\": \"ALLOWED_VIEW\",\n        \"type\": \"view\",\n        \"view\": \"level1\"\n    }",
+					"\": {}",
+					"\n        <h3><a href=\"#\">CSS cross referencing</a></h3>\n        <div data-example-view=\"css_cross_referencing\"></div>",
+					"isAuthorized",
+					"auth",
+					"tab",
+					"true"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/abularca/Work/rainjs/node_modules/connect/lib/middleware/session.js",
+							"settings":
+							{
+								"buffer_size": 8974,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5954,
+										5954
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 3339.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/abularca/Work/rainjs/node_modules/connect/lib/middleware/session/session.js",
+							"settings":
+							{
+								"buffer_size": 2466,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										595,
+										595
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 102.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 32.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,1,0,0,0,0,0,0,0,2560,1024",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"jstd",
+						"tests/client/conf/ClientTests.jstd"
+					],
+					[
+						"jakefi",
+						"Jakefile"
+					],
+					[
+						"bin/rain",
+						"bin/rain"
+					],
+					[
+						"text-tran",
+						"doc/source/proposals/Features-proposal-text-transport.rst"
+					],
+					[
+						"socket_re",
+						"lib/socket_registry.js"
+					],
+					[
+						"compo",
+						"lib/component_registry.js"
+					],
+					[
+						"component",
+						"lib/component_registry.js"
+					],
+					[
+						"server",
+						"lib/server.js"
+					],
+					[
+						"module",
+						"lib/module.js"
+					],
+					[
+						"example_list/server/data.js",
+						"components/example_list/server/data.js"
+					],
+					[
+						"example_list/client/js/intent",
+						"components/example_list/client/js/intent_security.js"
+					],
+					[
+						"websockets",
+						"lib/registry/websockets.js"
+					],
+					[
+						"trans",
+						"lib/translation.js"
+					],
+					[
+						"intent",
+						"lib/intent_registry.js"
+					],
+					[
+						"raintime",
+						"components/core/client/js/raintime.js"
+					],
+					[
+						"dialog",
+						"components/core/client/templates/dialog.html"
+					],
+					[
+						"renderer",
+						"lib/renderer.js"
+					],
+					[
+						"prox",
+						"lib/proxy_store.js"
+					],
+					[
+						"proxy",
+						"lib/proxy_store.js"
+					],
+					[
+						"error_",
+						"doc/source/server/error_component.rst"
+					],
+					[
+						"com",
+						"lib/component_registry.js"
+					],
+					[
+						"compone",
+						"lib/component_registry.js"
+					],
+					[
+						"server.js",
+						"lib/server.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 225.0,
+			"status_bar_visible": true,
+			"window_id": 12,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"intent",
+						"intent_security"
+					],
+					[
+						"verda",
+						"Verdana, Geneva, Arial, Helvetica, sans-serif"
+					],
+					[
+						"node",
+						"module._nodeModulePaths(from);"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/abularca/Work/rainjs/lib/proxy_store.js",
+					"settings":
+					{
+						"buffer_size": 6133,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/abularca/Work/rainjs/lib/server.js",
+					"settings":
+					{
+						"buffer_size": 2308,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "\"use strict\";\n\n// Initialize global objects\nvar logger = require('./logger');\nrequire('./globals');\n\nvar fs = require('fs');\nvar program = require('commander');\n\nvar config = require('./configuration');\nvar componentRegistry = require('./component_registry');\nvar connect = require('connect');\nvar router = require('./router');\nvar util = require('util');\nvar io = require('socket.io');\nvar path = require('path');\n\nvar ProxyStore = require('./proxy_store');\n\nvar routerUtils = require('./router_utils');\n\n/**\n * Configures the server components and starts it.\n *\n * @name Server\n * @class Starts a RAIN server.\n * @constructor\n *\n * @property {Configuration} config the server configuration\n */\nfunction Server() {\n}\n\n/**\n * Starts the server.\n *\n * @param {Server} self the class instance\n * @param {String} configPath the server configuration path\n * @private\n * @memberOf Server#\n */\nServer.prototype.initialize = function () {\n    var Store, Session;\n    try {\n        Store = config.session && config.session.store\n                     ? require(path.join(process.cwd(), config.session.store))\n                     : null;\n    } catch (e) {\n        console.error(\"Can't load Store plugin\");\n    }\n    try {\n        Session = config.session && config.session.middleware\n                      ? require(path.join(process.cwd(), config.session.middleware))\n                      : connect.session;\n    } catch (e) {\n        console.error(\"Can't load RemoteStore plugin\");\n    }\n\n    var sessionStore = new ProxyStore(Store);\n    var server = connect()\n        .use(connect.favicon())\n        .use(connect.cookieParser('let it rain ;)'))\n        .use(Session({\n            key: 'rain.sid',\n            secret: 'let it rain ;)',\n            store: sessionStore,\n            cookie: {\n                path: '/',\n                httpOnly: false\n            }\n        }))\n        .use(connect.query())\n        .use(connect.bodyParser())\n        .use(router())\n        .use(function (err, req, res, next) {\n            routerUtils.handleError(err, req, res);\n        })\n        .listen(config.server.port);\n\n    this.socket = io.listen(server, {'log level': 2});\n    this.sessionStore = sessionStore;\n    componentRegistry.initialize();\n    console.log(\"Server started\");\n    //watch files\n    require('./watcher').initialize();\n};\n\nmodule.exports = new Server();\n",
+					"settings":
+					{
+						"buffer_size": 2361,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/abularca/Work/rainjs/lib/module.js",
+					"settings":
+					{
+						"buffer_size": 1458,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 80.0,
+				"selected_items":
+				[
+					[
+						"git pul",
+						"Git: Pull"
+					],
+					[
+						"commit",
+						"Git: Commit"
+					],
+					[
+						"javascript",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"snippet",
+						"Snippet: expect not"
+					],
+					[
+						"Snippet: ",
+						"Snippet: describe"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"git push",
+						"Git: Push"
+					],
+					[
+						"git commit ",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add Current File"
+					],
+					[
+						"git commit",
+						"Git: Commit"
+					],
+					[
+						"git add ",
+						"Git: Add Current File"
+					],
+					[
+						"git pull",
+						"Git: Pull"
+					],
+					[
+						"push",
+						"Git: Push"
+					],
+					[
+						"pull",
+						"Git: Pull"
+					],
+					[
+						"javascri",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"git commi",
+						"Git: Commit"
+					],
+					[
+						"template",
+						"Create file from Template"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"git stash",
+						"Git: Stash Pop"
+					],
+					[
+						"less",
+						"Set Syntax: LESS"
+					],
+					[
+						"git d",
+						"Git: Diff Tool"
+					],
+					[
+						"git comm",
+						"Git: Commit"
+					],
+					[
+						"git pu",
+						"Git: Pull"
+					],
+					[
+						"git mer",
+						"Git: Merge Branch"
+					],
+					[
+						"",
+						"Git: Change Branch"
+					],
+					[
+						"git ",
+						"Git: Change Branch"
+					],
+					[
+						"git merge",
+						"Git: Merge Branch"
+					],
+					[
+						"git che",
+						"Git: Change Branch"
+					],
+					[
+						"templa",
+						"Create file from Template"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"node",
+						"Snippet: Snippet: NodeJS EventEmitter"
+					],
+					[
+						"npm",
+						"Nodejs::NPM::Install"
+					],
+					[
+						"git p",
+						"Git: Pull"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"lint",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"gist",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 453.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/abularca/Work/rainjs/conf/server.conf.default",
+				"/home/abularca/Work/rainjs/lib/component_registry.js",
+				"/home/abularca/Work/rainjs/lib/renderer.js",
+				"/home/abularca/Work/rainjs/node_modules/connect/lib/middleware/session/memory.js",
+				"/home/abularca/Work/rainjs/node_modules/connect/lib/middleware/session/session.js",
+				"/home/abularca/Work/rainjs/node_modules/connect/lib/middleware/session/store.js",
+				"/home/abularca/Work/rainjs/node_modules/connect/lib/middleware/session.js",
+				"/home/abularca/Work/rainjs/tests/client/lib/jasmine-rain/jasmine_rain.js",
+				"/home/abularca/Work/rainjs/tests/client/tests/translation.spec.js",
+				"/home/abularca/Work/rainjs/doc/source/client/localization.rst",
+				"/home/abularca/Work/rainjs/components/example_list/client/js/client_side_text_localization.js",
+				"/home/abularca/Work/rainjs/components/example_list/locale/ro_RO/messages.po",
+				"/home/abularca/Work/rainjs/components/core/client/js/translation.js",
+				"/home/abularca/Work/rainjs/doc/source/server/authorization.rst",
+				"/home/abularca/Work/rainjs/doc/source/index.rst",
+				"/home/abularca/Work/rainjs/tests/client/lib/bootstrap.js",
+				"/home/abularca/Work/rainjs/lib/server.js",
+				"/home/abularca/Work/sprint/conf/server.conf.default",
+				"/home/abularca/Work/rainjs/components/example_list/client/templates/client_side_text_localization.html",
+				"/home/abularca/Work/rainjs/tests/client/tests/require_json.spec.js",
+				"/home/abularca/Work/rainjs/lib/registry/precompile_less.js",
+				"/home/abularca/Work/rainjs/components/example_list/client/js/index.js",
+				"/home/abularca/Work/rainjs/tests/client/mocks/mocks.js",
+				"/home/abularca/Work/rainjs/tests/client/conf/ClientTests.jstd",
+				"/home/abularca/Work/rainjs/tests/client/mocks/asd.js",
+				"/home/abularca/Work/rainjs/Jakefile",
+				"/home/abularca/Work/rainjs/components/core/client/js/lib/require-locale.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/raintime.js",
+				"/home/abularca/Work/rainjs/bin/rain.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/lib/jed.js",
+				"/home/abularca/Work/rainjs/doc/source/getting_started/installation.rst",
+				"/home/abularca/Work/rainjs/doc/source/conf.py",
+				"/home/abularca/Work/rain/bin/rain",
+				"/home/abularca/Work/rain/doc/source/proposals/Features-proposal-text-transport.rst",
+				"/home/abularca/Work/rain/doc/source/proposals/Feature-proposal-text-transport.rst",
+				"/home/abularca/Work/rain/doc/source/proposals/Features-proposal-view-authorization.rst",
+				"/home/abularca/Work/rain/lib/socket_registry.js",
+				"/home/abularca/Work/rain/doc/source/proposals/Features-proposal-client-contexts.rst",
+				"/home/abularca/Work/rain/lib/registry/websockets.js",
+				"/home/abularca/Work/rain/bin/lib/utils.js",
+				"/home/abularca/Work/rain/lib/server.js",
+				"/home/abularca/Work/rain/start",
+				"/home/abularca/Work/rain/lib/po_utils.js",
+				"/home/abularca/Work/rain/tests/server/tests/text_localization.spec.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/components/example_4_5_2/locale/en_US/messages.po",
+				"/home/abularca/Work/rain/components/example_list/meta.json",
+				"/home/abularca/Work/rain/tests/server/tests/po_utils.spec.js",
+				"/home/abularca/Work/rain/lib/registry/intents.js",
+				"/home/abularca/Work/rain/tests/server/tests/intent_registry.spec.js",
+				"/home/abularca/Work/rain/components/example_list/client/templates/text_localization.html",
+				"/home/abularca/Work/rain/lib/po_utils.spec.js",
+				"/home/abularca/Work/rain/lib/translation.js",
+				"/home/abularca/Work/rain/lib/component_registry.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/server.conf",
+				"/home/abularca/Work/rain/tests/server/tests/configuration.spec.js",
+				"/home/abularca/Work/rain/lib/registry/load_translation_files.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/server_two.conf",
+				"/home/abularca/Work/rain/Jakefile",
+				"/home/abularca/Work/rain/tests/server/tests/registry/websockets.spec.js",
+				"/home/abularca/Work/rain/tests/server/tests/registry/precompile_templates.spec.js",
+				"/home/abularca/Work/rain/components/example_list/server/data.js",
+				"/home/abularca/Work/rain/lib/module.js",
+				"/home/abularca/Work/rain/conf/server.conf.default",
+				"/home/abularca/Work/rain/components/example_list/server/controller/index.js",
+				"/home/abularca/Work/rain/components/core/client/js/context.js",
+				"/home/abularca/Work/rain/components/example_list/server/websockets/socket.js",
+				"/home/abularca/Work/rain/components/example_list/locale/en_US/messages.po",
+				"/home/abularca/Work/rain/lib/intent_registry.js",
+				"/home/abularca/Work/rain/doc/source/server/messaging_intents.rst",
+				"/home/abularca/Work/rain/components/example_list/client/js/intent_security.js",
+				"/home/abularca/Work/rain/doc/source/server/authorization.rst",
+				"/home/abularca/Work/rain/components/example_2_0/meta.json",
+				"/home/abularca/Work/rain/tests/client/lib/jasmine-rain/jasmine_rain.js",
+				"/home/abularca/Work/rain/lib/handlebars.js",
+				"/home/abularca/Work/rain/tests/client/conf/ClientTests.jstd",
+				"/home/abularca/Work/rain/lib/routes/controller.js",
+				"/home/abularca/Work/rain/lib/data_layer.js",
+				"/home/abularca/Work/rain/lib/handlebars/component.js",
+				"/home/abularca/Work/rain/lib/handlebars/css.js",
+				"/home/abularca/Work/rain/lib/handlebars/translation.js",
+				"/home/abularca/Work/rain/lib/handlebars/translation_plural.js",
+				"/home/abularca/Work/rain/tests/server/tests/module.spec.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/modules/lib1.js",
+				"/home/abularca/Work/rain/tests/server/tests/routes/controller.spec.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/components/example/server/controller/index.js",
+				"/home/abularca/Work/rain/tests/server/tests/util.spec.js",
+				"/home/abularca/Work/rain/lib/util.js",
+				"/home/abularca/Work/rain/components/core/client/js/raintime.js",
+				"/home/abularca/Work/rain/lib/globals.js",
+				"/home/abularca/Work/rain/lib/renderer.js",
+				"/home/abularca/Work/rain/components/core/client/js/messaging/observer.js",
+				"/home/abularca/Work/rain/components/core/client/js/dialog.js",
+				"/home/abularca/Work/rain/lib/router_utils.js",
+				"/home/abularca/Work/rain/lib/rain_error.js",
+				"/home/abularca/Work/rain/dsa.js",
+				"/home/abularca/Work/rain/components/example_list/client/js/index.js",
+				"/home/abularca/.bashrc",
+				"/home/abularca/.config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/abularca/Work/rain/components/example_list/client/templates/index.html",
+				"/home/abularca/Work/rain/components/example_list/client/templates/intent_security.html",
+				"/home/abularca/Work/rain/components/example_list/client/templates/denied.html",
+				"/home/abularca/Work/rain/components/core/client/css/modal.css",
+				"/home/abularca/Work/rain/client-test.sh",
+				"/home/abularca/Work/rain/components/core/client/templates/dialog.html",
+				"/home/abularca/Work/rain/components/example_2_0/client/templates/index.html",
+				"/home/abularca/Work/rain/components/core/client/js/client_rendering.js",
+				"/home/abularca/Work/rain/components/example_2_0/server/authorization.js",
+				"/home/abularca/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/abularca/Work/rain/components/example_2_0/client/js/index.js",
+				"/home/abularca/Work/rain/components/example_2_0/server/controller/index.js",
+				"/home/abularca/Work/rain/components/example_new/client/css/postit.css",
+				"/home/abularca/Work/rain/components/example_new/client/templates/postit.html",
+				"/home/abularca/Work/rain/components/example_new/meta.json",
+				"/home/abularca/Work/rain/lib/proxy_store.js",
+				"/home/abularca/.config/sublime-text-2/Packages/SublimeLinter/Base File.sublime-settings",
+				"/home/abularca/.config/sublime-text-2/Packages/Nodejs/Nodejs.sublime-settings",
+				"/home/abularca/Work/rain/.gitignore",
+				"/home/abularca/Work/rain/doc/source/server/error_component.rst",
+				"/home/abularca/Work/rain/server.log",
+				"/home/abularca/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"/home/abularca/Work/rain/bin",
+					"/home/abularca/Work/rain/lib"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"util",
+					"generate",
+					"mock",
+					"spy",
+					".spec",
+					"prototype.it",
+					"cache",
+					"load",
+					"spyon",
+					"inherits",
+					"currentspec",
+					"coreComponentsName",
+					"setupProject",
+					"createProject",
+					"require",
+					"Rain",
+					"getServerPIDContent",
+					"server.initi",
+					"var server",
+					"server",
+					"server.init",
+					"existsSync",
+					"getFolder",
+					"loadlan",
+					"console",
+					"            ",
+					"generateContext",
+					")",
+					"requireWithContext",
+					"loadmodule",
+					"require",
+					"data",
+					"extend",
+					"you need to specify a contro",
+					"\n    \"intents\": [{\n        \"category\": \"com.rain.example.security\",\n        \"action\": \"ALLOWED_VIEW\",\n        \"type\": \"view\",\n        \"view\": \"level1\"\n    }",
+					"\": {}",
+					"\n        <h3><a href=\"#\">CSS cross referencing</a></h3>\n        <div data-example-view=\"css_cross_referencing\"></div>",
+					"isAuthorized",
+					"auth",
+					"tab",
+					"true"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/abularca/Work/rainjs"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/abularca/Work/rainjs/lib/proxy_store.js",
+							"settings":
+							{
+								"buffer_size": 6133,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										998,
+										998
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 102.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/abularca/Work/rainjs/lib/server.js",
+							"settings":
+							{
+								"buffer_size": 2308,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1601,
+										1601
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 510.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"settings":
+							{
+								"buffer_size": 2361,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										2361
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 599.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/abularca/Work/rainjs/lib/module.js",
+							"settings":
+							{
+								"buffer_size": 1458,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										405,
+										405
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 17.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 32.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,1,0,0,0,0,0,0,0,2560,1024",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"module.",
+						"lib/module.js"
+					],
+					[
+						"server.c",
+						"conf/server.conf.default"
+					],
+					[
+						"server",
+						"lib/server.js"
+					],
+					[
+						"proxy",
+						"lib/proxy_store.js"
+					],
+					[
+						"renderer",
+						"lib/renderer.js"
+					],
+					[
+						"compone",
+						"lib/component_registry.js"
+					],
+					[
+						"jstd",
+						"tests/client/conf/ClientTests.jstd"
+					],
+					[
+						"jakefi",
+						"Jakefile"
+					],
+					[
+						"bin/rain",
+						"bin/rain"
+					],
+					[
+						"text-tran",
+						"doc/source/proposals/Features-proposal-text-transport.rst"
+					],
+					[
+						"socket_re",
+						"lib/socket_registry.js"
+					],
+					[
+						"compo",
+						"lib/component_registry.js"
+					],
+					[
+						"component",
+						"lib/component_registry.js"
+					],
+					[
+						"module",
+						"lib/module.js"
+					],
+					[
+						"example_list/server/data.js",
+						"components/example_list/server/data.js"
+					],
+					[
+						"example_list/client/js/intent",
+						"components/example_list/client/js/intent_security.js"
+					],
+					[
+						"websockets",
+						"lib/registry/websockets.js"
+					],
+					[
+						"trans",
+						"lib/translation.js"
+					],
+					[
+						"intent",
+						"lib/intent_registry.js"
+					],
+					[
+						"raintime",
+						"components/core/client/js/raintime.js"
+					],
+					[
+						"dialog",
+						"components/core/client/templates/dialog.html"
+					],
+					[
+						"prox",
+						"lib/proxy_store.js"
+					],
+					[
+						"error_",
+						"doc/source/server/error_component.rst"
+					],
+					[
+						"com",
+						"lib/component_registry.js"
+					],
+					[
+						"server.js",
+						"lib/server.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 225.0,
+			"status_bar_visible": true,
+			"window_id": 13,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"intent",
+						"intent_security"
+					],
+					[
+						"verda",
+						"Verdana, Geneva, Arial, Helvetica, sans-serif"
+					],
+					[
+						"node",
+						"module._nodeModulePaths(from);"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/abularca/Work/sprint/plugins/server/middleware/session.js",
+					"settings":
+					{
+						"buffer_size": 1379,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/abularca/Work/sprint/plugins/server/hip_store.js",
+					"settings":
+					{
+						"buffer_size": 4836,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/abularca/Work/sprint/conf/server.conf.default",
+					"settings":
+					{
+						"buffer_size": 685,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 126.0,
+				"selected_items":
+				[
+					[
+						"git pul",
+						"Git: Pull"
+					],
+					[
+						"commit",
+						"Git: Commit"
+					],
+					[
+						"javascript",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"snippet",
+						"Snippet: expect not"
+					],
+					[
+						"Snippet: ",
+						"Snippet: describe"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"git push",
+						"Git: Push"
+					],
+					[
+						"git commit ",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add Current File"
+					],
+					[
+						"git commit",
+						"Git: Commit"
+					],
+					[
+						"git add ",
+						"Git: Add Current File"
+					],
+					[
+						"git pull",
+						"Git: Pull"
+					],
+					[
+						"push",
+						"Git: Push"
+					],
+					[
+						"pull",
+						"Git: Pull"
+					],
+					[
+						"javascri",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"git commi",
+						"Git: Commit"
+					],
+					[
+						"template",
+						"Create file from Template"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"git stash",
+						"Git: Stash Pop"
+					],
+					[
+						"less",
+						"Set Syntax: LESS"
+					],
+					[
+						"git d",
+						"Git: Diff Tool"
+					],
+					[
+						"git comm",
+						"Git: Commit"
+					],
+					[
+						"git pu",
+						"Git: Pull"
+					],
+					[
+						"git mer",
+						"Git: Merge Branch"
+					],
+					[
+						"",
+						"Git: Change Branch"
+					],
+					[
+						"git ",
+						"Git: Change Branch"
+					],
+					[
+						"git merge",
+						"Git: Merge Branch"
+					],
+					[
+						"git che",
+						"Git: Change Branch"
+					],
+					[
+						"templa",
+						"Create file from Template"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"node",
+						"Snippet: Snippet: NodeJS EventEmitter"
+					],
+					[
+						"npm",
+						"Nodejs::NPM::Install"
+					],
+					[
+						"git p",
+						"Git: Pull"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"lint",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"gist",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 453.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/abularca/Work/sprint/plugins/server/http.js",
+				"/home/abularca/Work/sprint/plugins/server/session_generator.js",
+				"/home/abularca/Work/sprint/plugins/server/SessionGenerator.js",
+				"/home/abularca/Work/sprint/plugins/server/session.js",
+				"/home/abularca/Work/sprint/conf/server.conf.default",
+				"/home/abularca/.config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/abularca/Work/sprint/plugins/server/hip_store.js",
+				"/home/abularca/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/abularca/Work/sprint/components/grid/client/css/slick.grid.css",
+				"/home/abularca/Work/sprint/components/datagrid/client/css/index.css",
+				"/home/abularca/Work/sprint/components/datagrid/client/templates/index.html",
+				"/home/abularca/Work/sprint/components/example_list/client/templates/datagrid/static.html",
+				"/home/abularca/Work/sprint/components/grid/meta.json",
+				"/home/abularca/Work/sprint/components/example_list/meta.json",
+				"/home/abularca/Work/rainjs/tests/client/lib/jasmine-rain/jasmine_rain.js",
+				"/home/abularca/Work/rainjs/tests/client/tests/translation.spec.js",
+				"/home/abularca/Work/rainjs/doc/source/client/localization.rst",
+				"/home/abularca/Work/rainjs/components/example_list/client/js/client_side_text_localization.js",
+				"/home/abularca/Work/rainjs/components/example_list/locale/ro_RO/messages.po",
+				"/home/abularca/Work/rainjs/components/core/client/js/translation.js",
+				"/home/abularca/Work/rainjs/doc/source/server/authorization.rst",
+				"/home/abularca/Work/rainjs/doc/source/index.rst",
+				"/home/abularca/Work/rainjs/tests/client/lib/bootstrap.js",
+				"/home/abularca/Work/rainjs/lib/server.js",
+				"/home/abularca/Work/rainjs/components/example_list/client/templates/client_side_text_localization.html",
+				"/home/abularca/Work/rainjs/tests/client/tests/require_json.spec.js",
+				"/home/abularca/Work/rainjs/lib/registry/precompile_less.js",
+				"/home/abularca/Work/rainjs/components/example_list/client/js/index.js",
+				"/home/abularca/Work/rainjs/tests/client/mocks/mocks.js",
+				"/home/abularca/Work/rainjs/tests/client/conf/ClientTests.jstd",
+				"/home/abularca/Work/rainjs/tests/client/mocks/asd.js",
+				"/home/abularca/Work/rainjs/Jakefile",
+				"/home/abularca/Work/rainjs/conf/server.conf.default",
+				"/home/abularca/Work/rainjs/components/core/client/js/lib/require-locale.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/raintime.js",
+				"/home/abularca/Work/rainjs/bin/rain.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/lib/jed.js",
+				"/home/abularca/Work/rainjs/doc/source/getting_started/installation.rst",
+				"/home/abularca/Work/rainjs/doc/source/conf.py",
+				"/home/abularca/Work/rain/bin/rain",
+				"/home/abularca/Work/rain/doc/source/proposals/Features-proposal-text-transport.rst",
+				"/home/abularca/Work/rain/doc/source/proposals/Feature-proposal-text-transport.rst",
+				"/home/abularca/Work/rain/doc/source/proposals/Features-proposal-view-authorization.rst",
+				"/home/abularca/Work/rain/lib/socket_registry.js",
+				"/home/abularca/Work/rain/doc/source/proposals/Features-proposal-client-contexts.rst",
+				"/home/abularca/Work/rain/lib/registry/websockets.js",
+				"/home/abularca/Work/rain/bin/lib/utils.js",
+				"/home/abularca/Work/rain/lib/server.js",
+				"/home/abularca/Work/rain/start",
+				"/home/abularca/Work/rain/lib/po_utils.js",
+				"/home/abularca/Work/rain/tests/server/tests/text_localization.spec.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/components/example_4_5_2/locale/en_US/messages.po",
+				"/home/abularca/Work/rain/components/example_list/meta.json",
+				"/home/abularca/Work/rain/tests/server/tests/po_utils.spec.js",
+				"/home/abularca/Work/rain/lib/registry/intents.js",
+				"/home/abularca/Work/rain/tests/server/tests/intent_registry.spec.js",
+				"/home/abularca/Work/rain/components/example_list/client/templates/text_localization.html",
+				"/home/abularca/Work/rain/lib/po_utils.spec.js",
+				"/home/abularca/Work/rain/lib/translation.js",
+				"/home/abularca/Work/rain/lib/component_registry.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/server.conf",
+				"/home/abularca/Work/rain/tests/server/tests/configuration.spec.js",
+				"/home/abularca/Work/rain/lib/registry/load_translation_files.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/server_two.conf",
+				"/home/abularca/Work/rain/Jakefile",
+				"/home/abularca/Work/rain/tests/server/tests/registry/websockets.spec.js",
+				"/home/abularca/Work/rain/tests/server/tests/registry/precompile_templates.spec.js",
+				"/home/abularca/Work/rain/components/example_list/server/data.js",
+				"/home/abularca/Work/rain/lib/module.js",
+				"/home/abularca/Work/rain/conf/server.conf.default",
+				"/home/abularca/Work/rain/components/example_list/server/controller/index.js",
+				"/home/abularca/Work/rain/components/core/client/js/context.js",
+				"/home/abularca/Work/rain/components/example_list/server/websockets/socket.js",
+				"/home/abularca/Work/rain/components/example_list/locale/en_US/messages.po",
+				"/home/abularca/Work/rain/lib/intent_registry.js",
+				"/home/abularca/Work/rain/doc/source/server/messaging_intents.rst",
+				"/home/abularca/Work/rain/components/example_list/client/js/intent_security.js",
+				"/home/abularca/Work/rain/doc/source/server/authorization.rst",
+				"/home/abularca/Work/rain/components/example_2_0/meta.json",
+				"/home/abularca/Work/rain/tests/client/lib/jasmine-rain/jasmine_rain.js",
+				"/home/abularca/Work/rain/lib/handlebars.js",
+				"/home/abularca/Work/rain/tests/client/conf/ClientTests.jstd",
+				"/home/abularca/Work/rain/lib/routes/controller.js",
+				"/home/abularca/Work/rain/lib/data_layer.js",
+				"/home/abularca/Work/rain/lib/handlebars/component.js",
+				"/home/abularca/Work/rain/lib/handlebars/css.js",
+				"/home/abularca/Work/rain/lib/handlebars/translation.js",
+				"/home/abularca/Work/rain/lib/handlebars/translation_plural.js",
+				"/home/abularca/Work/rain/tests/server/tests/module.spec.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/modules/lib1.js",
+				"/home/abularca/Work/rain/tests/server/tests/routes/controller.spec.js",
+				"/home/abularca/Work/rain/tests/server/fixtures/components/example/server/controller/index.js",
+				"/home/abularca/Work/rain/tests/server/tests/util.spec.js",
+				"/home/abularca/Work/rain/lib/util.js",
+				"/home/abularca/Work/rain/components/core/client/js/raintime.js",
+				"/home/abularca/Work/rain/lib/globals.js",
+				"/home/abularca/Work/rain/lib/renderer.js",
+				"/home/abularca/Work/rain/components/core/client/js/messaging/observer.js",
+				"/home/abularca/Work/rain/components/core/client/js/dialog.js",
+				"/home/abularca/Work/rain/lib/router_utils.js",
+				"/home/abularca/Work/rain/lib/rain_error.js",
+				"/home/abularca/Work/rain/dsa.js",
+				"/home/abularca/Work/rain/components/example_list/client/js/index.js",
+				"/home/abularca/.bashrc",
+				"/home/abularca/Work/rain/components/example_list/client/templates/index.html",
+				"/home/abularca/Work/rain/components/example_list/client/templates/intent_security.html",
+				"/home/abularca/Work/rain/components/example_list/client/templates/denied.html",
+				"/home/abularca/Work/rain/components/core/client/css/modal.css",
+				"/home/abularca/Work/rain/client-test.sh",
+				"/home/abularca/Work/rain/components/core/client/templates/dialog.html",
+				"/home/abularca/Work/rain/components/example_2_0/client/templates/index.html",
+				"/home/abularca/Work/rain/components/core/client/js/client_rendering.js",
+				"/home/abularca/Work/rain/components/example_2_0/server/authorization.js",
+				"/home/abularca/Work/rain/components/example_2_0/client/js/index.js",
+				"/home/abularca/Work/rain/components/example_2_0/server/controller/index.js",
+				"/home/abularca/Work/rain/components/example_new/client/css/postit.css",
+				"/home/abularca/Work/rain/components/example_new/client/templates/postit.html",
+				"/home/abularca/Work/rain/components/example_new/meta.json",
+				"/home/abularca/Work/rain/lib/proxy_store.js",
+				"/home/abularca/.config/sublime-text-2/Packages/SublimeLinter/Base File.sublime-settings",
+				"/home/abularca/.config/sublime-text-2/Packages/Nodejs/Nodejs.sublime-settings",
+				"/home/abularca/Work/rain/.gitignore",
+				"/home/abularca/Work/rain/doc/source/server/error_component.rst",
+				"/home/abularca/Work/rain/server.log",
+				"/home/abularca/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"/home/abularca/Work/rain/bin",
+					"/home/abularca/Work/rain/lib"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"\"host\": \"vm1785.development.lan\",\n        \"port\": 8080,\n        \"baseUrl\": \"/hip-sessionstore-1.0.6-No2/SessionStore\",\n        \"namespace\": \"rain-session\"\n    };",
+					"weight",
+					"mock",
+					"spy",
+					".spec",
+					"prototype.it",
+					"cache",
+					"load",
+					"spyon",
+					"inherits",
+					"currentspec",
+					"coreComponentsName",
+					"setupProject",
+					"createProject",
+					"require",
+					"Rain",
+					"getServerPIDContent",
+					"server.initi",
+					"var server",
+					"server",
+					"server.init",
+					"existsSync",
+					"getFolder",
+					"loadlan",
+					"console",
+					"            ",
+					"generateContext",
+					")",
+					"requireWithContext",
+					"loadmodule",
+					"require",
+					"data",
+					"extend",
+					"you need to specify a contro",
+					"\n    \"intents\": [{\n        \"category\": \"com.rain.example.security\",\n        \"action\": \"ALLOWED_VIEW\",\n        \"type\": \"view\",\n        \"view\": \"level1\"\n    }",
+					"\": {}",
+					"\n        <h3><a href=\"#\">CSS cross referencing</a></h3>\n        <div data-example-view=\"css_cross_referencing\"></div>",
+					"isAuthorized",
+					"auth",
+					"tab",
+					"true"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/abularca/Work/sprint"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/abularca/Work/sprint/plugins/server/middleware/session.js",
+							"settings":
+							{
+								"buffer_size": 1379,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										771,
+										771
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/abularca/Work/sprint/plugins/server/hip_store.js",
+							"settings":
+							{
+								"buffer_size": 4836,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4806,
+										4806
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 61.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/abularca/Work/sprint/conf/server.conf.default",
+							"settings":
+							{
+								"buffer_size": 685,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										384,
+										384
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 32.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,1,0,0,0,0,0,0,0,2560,1024",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"server.",
+						"conf/server.conf.default"
+					],
+					[
+						"hip_",
+						"plugins/server/hip_store.js"
+					],
+					[
+						"conf/ser",
+						"conf/server.conf.default"
+					],
+					[
+						"compone",
+						"lib/component_registry.js"
+					],
+					[
+						"server",
+						"lib/server.js"
+					],
+					[
+						"jstd",
+						"tests/client/conf/ClientTests.jstd"
+					],
+					[
+						"jakefi",
+						"Jakefile"
+					],
+					[
+						"bin/rain",
+						"bin/rain"
+					],
+					[
+						"text-tran",
+						"doc/source/proposals/Features-proposal-text-transport.rst"
+					],
+					[
+						"socket_re",
+						"lib/socket_registry.js"
+					],
+					[
+						"compo",
+						"lib/component_registry.js"
+					],
+					[
+						"component",
+						"lib/component_registry.js"
+					],
+					[
+						"module",
+						"lib/module.js"
+					],
+					[
+						"example_list/server/data.js",
+						"components/example_list/server/data.js"
+					],
+					[
+						"example_list/client/js/intent",
+						"components/example_list/client/js/intent_security.js"
+					],
+					[
+						"websockets",
+						"lib/registry/websockets.js"
+					],
+					[
+						"trans",
+						"lib/translation.js"
+					],
+					[
+						"intent",
+						"lib/intent_registry.js"
+					],
+					[
+						"raintime",
+						"components/core/client/js/raintime.js"
+					],
+					[
+						"dialog",
+						"components/core/client/templates/dialog.html"
+					],
+					[
+						"renderer",
+						"lib/renderer.js"
+					],
+					[
+						"prox",
+						"lib/proxy_store.js"
+					],
+					[
+						"proxy",
+						"lib/proxy_store.js"
+					],
+					[
+						"error_",
+						"doc/source/server/error_component.rst"
+					],
+					[
+						"com",
+						"lib/component_registry.js"
+					],
+					[
+						"server.js",
+						"lib/server.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 225.0,
+			"status_bar_visible": true,
+			"window_id": 14,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

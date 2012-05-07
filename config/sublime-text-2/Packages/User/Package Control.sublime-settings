@@ -1,0 +1,23 @@
+{
+	"auto_upgrade_last_run": 1336376495,
+	"installed_packages":
+	[
+		"Auto Semi-Colon",
+		"CoffeeScript",
+		"FileTemplates",
+		"Gist",
+		"Git",
+		"Jasmine",
+		"LESS",
+		"Nodejs",
+		"Package Control",
+		"Shell Turtlestein",
+		"Smart Match",
+		"Stylus",
+		"SublimeLinter",
+		"SublimeREPL",
+		"Theme - Soda",
+		"VintageEx",
+		"ZenCoding"
+	]
+}

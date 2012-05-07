@@ -1,24 +1,35 @@
 fs = require 'fs'
 path = require 'path'
 
+ignores = ['.git', 'Cakefile', 'README.md', '.gitignore']
+contents = ['config']
+
 task 'install', 'Install the files to the user\'s home directory', (options) ->
     cwd = process.cwd()
-    ignores = ['.git', 'Cakefile', 'README.md', '.gitignore']
 
     fs.readdir cwd, (err, files) ->
         if (err)
             console.log 'This is bad:', err
             return
 
-        linkFile file for file in files when ignores.indexOf(file) is -1
+        linkFile path.join(cwd, file), path.join(process.env.HOME, '.' + file) for file in files when ignores.indexOf(file) is -1
 
-linkFile = (file) ->
+linkFile = (src, dest) ->
     cwd = process.cwd()
-    src = path.join cwd, file
-    dest = path.join process.env.HOME, '.' + file
 
-    if (fs.lstatSync dest)
-        fs.unlinkSync dest
+    if (contents.indexOf(path.basename(src)) isnt -1)
+        fs.readdir src, (err, files) ->
+            if (err)
+                console.log 'This is bad:', err
+                return
 
-    console.log "Linking ~/.#{file}"
+            linkFile path.join(src, file), path.join(dest, file) for file in files when ignores.indexOf(file) is -1
+        return
+    try
+        if (fs.lstatSync dest)
+            fs.unlinkSync dest
+    catch e
+        # doesn't exist
+
+    console.log "Linking #{src}"
     fs.symlink src, dest
