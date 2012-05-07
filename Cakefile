@@ -16,6 +16,11 @@ task 'install', 'Install the files to the user\'s home directory', (options) ->
 
 linkFile = (file) ->
     cwd = process.cwd()
+    src = path.join cwd, file
+    dest = path.join process.env.HOME, '.' + file
+
+    if (fs.lstatSync dest)
+        fs.unlinkSync dest
 
     console.log "Linking ~/.#{file}"
-    fs.symlink path.join(cwd, file), path.join(process.env.HOME, '.' + file)
+    fs.symlink src, dest
