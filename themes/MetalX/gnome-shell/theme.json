@@ -1,0 +1,10 @@
+{ 
+   "shell-theme": {
+   "name": "MetalX", 
+   "author": "Viper", 
+   "version": "1.2",
+   "type":   "custom",
+   "thumbnail": "preview-MetalX.jpg", 
+   "url": "http://justviper.deviantart.com/"
+    }
+}

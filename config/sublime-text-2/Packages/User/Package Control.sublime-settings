@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1336376495,
+	"auto_upgrade_last_run": 1336660825,
 	"installed_packages":
 	[
 		"Auto Semi-Colon",
@@ -9,6 +9,7 @@
 		"Git",
 		"Jasmine",
 		"LESS",
+		"NaturalDocs",
 		"Nodejs",
 		"Package Control",
 		"Shell Turtlestein",
@@ -17,6 +18,7 @@
 		"SublimeLinter",
 		"SublimeREPL",
 		"Theme - Soda",
+		"TomDoc",
 		"VintageEx",
 		"ZenCoding"
 	]
