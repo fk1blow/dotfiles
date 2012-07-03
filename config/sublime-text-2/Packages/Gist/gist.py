@@ -11,6 +11,7 @@ import webbrowser
 import tempfile
 import traceback
 import contextlib
+import shutil
 
 DEFAULT_CREATE_PUBLIC_VALUE = 'false'
 DEFAULT_USE_PROXY_VALUE = 'false'
@@ -35,6 +36,10 @@ def get_credentials():
         raise MissingCredentialsException()
     return (username, password)
 
+def basic_auth_string():
+    auth_string = u'%s:%s' % get_credentials()
+    return auth_string.encode('utf-8')
+
 if sublime.platform() == 'osx':
     # Keychain support
     # Instead of Gist.sublime-settings, fetch username and password from the user's github.com keychain entry
@@ -52,6 +57,8 @@ if sublime.platform() == 'osx':
 
         class SecKeychainAttributeList(Structure):
             _fields_ = [("count", c_uint32), ("attr", POINTER(SecKeychainAttribute))]
+
+        PtrSecKeychainAttributeList = POINTER(SecKeychainAttributeList)
 
         def keychain_get_credentials():
             username = settings.get('username')
@@ -85,7 +92,7 @@ if sublime.platform() == 'osx':
                     pointer(c_uint32(1633903476)), # kSecAccountItemAttr
                     pointer(c_uint32(6))) # CSSM_DB_ATTRIBUTE_FORMAT_BLOB
 
-                attrlist_ptr = pointer(SecKeychainAttributeList())
+                attrlist_ptr = PtrSecKeychainAttributeList()
                 error = lib_security.SecKeychainItemCopyAttributesAndData(
                     item, # keychain item reference
                     byref(info), # list of attributes to retrieve
@@ -101,7 +108,7 @@ if sublime.platform() == 'osx':
                             username = string_at(attr.data, attr.length)
                             password = string_at(password_buf.value, password_buflen.value)
                     finally:
-                        lib_security.SecKeychainItemFreeContent(attrlist_ptr, password_buf)
+                        lib_security.SecKeychainItemFreeAttributesAndData(attrlist_ptr, password_buf)
 
             if not username or not password:
                 raise MissingCredentialsException()
@@ -118,6 +125,11 @@ def catch_errors(fn):
             return fn(*args, **kwargs)
         except MissingCredentialsException:
             sublime.error_message("Gist: GitHub username or password isn't provided in Gist.sublime-settings file")
+            user_settings_path = os.path.join(sublime.packages_path(), 'User', 'Gist.sublime-settings')
+            if not os.path.exists(user_settings_path):
+                default_settings_path = os.path.join(sublime.packages_path(), 'Gist', 'Gist.sublime-settings')
+                shutil.copy(default_settings_path, user_settings_path)
+            sublime.active_window().open_file(user_settings_path)
         except subprocess.CalledProcessError as err:
             sublime.error_message("Gist: Error while contacting GitHub: cURL returned %d" % err.returncode)
         except EnvironmentError as err:
@@ -201,7 +213,7 @@ def api_request_native(url, data=None, method=None):
     request = urllib2.Request(url)
     if method:
         request.get_method = lambda: method
-    request.add_header('Authorization', 'Basic ' + base64.urlsafe_b64encode("%s:%s" % get_credentials()))
+    request.add_header('Authorization', 'Basic ' + base64.urlsafe_b64encode(basic_auth_string()))
     request.add_header('Accept', 'application/json')
     request.add_header('Content-Type', 'application/json')
 
@@ -236,9 +248,7 @@ def named_tempfile():
 def api_request_curl(url, data=None, method=None):
     command = ["curl", '-K', '-', url]
 
-    authorization_string = '-u "%s:%s"' % get_credentials()
-
-    config = [authorization_string,
+    config = ['-u ' + basic_auth_string(),
               '--header "Accept: application/json"',
               '--header "Content-Type: application/json"',
               "--silent"]

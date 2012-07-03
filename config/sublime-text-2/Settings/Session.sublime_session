@@ -1,13 +1,15 @@
 {
 	"folder_history":
 	[
-		"/home/abularca/Work/rainjs",
+		"/home/arcade/Work/worms",
+		"/home/arcade/Work/ubervu/mozaic/bundler",
 		"/home/abularca/Work/sprint",
+		"/home/abularca/Work/rainjs",
 		"/home/abularca/Work/rain",
 		"/home/abularca/Work/test",
 		"/home/abularca/Work/rain_sdk_1and1"
 	],
-	"last_window_id": 15,
+	"last_window_id": 18,
 	"settings":
 	{
 		"new_window_height": 0.0,
@@ -17,6 +19,10 @@
 			{
 				"selected_items":
 				[
+					[
+						"unsubscribe",
+						"unsubscribeLocal"
+					],
 					[
 						"intent",
 						"intent_security"
@@ -34,9 +40,13 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 126.0,
+				"height": 375.0,
 				"selected_items":
 				[
+					[
+						"javacr",
+						"Set Syntax: JavaScript (Rails)"
+					],
 					[
 						"javascri",
 						"Set Syntax: JavaScript"
@@ -186,7 +196,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 453.0
+				"width": 435.0
 			},
 			"console":
 			{
@@ -203,6 +213,22 @@
 			},
 			"file_history":
 			[
+				"/home/arcade/Work/dotfiles/config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/arcade/Work/ubervu/mozaic/bundler/bin/bundle",
+				"/home/arcade/Work/ubervu/mozaic/bundler/lib/bundler.coffee",
+				"/home/abularca/Work/rainjs/lib/rain_error.js",
+				"/home/abularca/Work/rainjs/lib/server.js",
+				"/home/abularca/Work/rainjs/lib/watcher.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/lib/promise.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/dialog.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/raintime.js",
+				"/home/abularca/Work/rainjs/components/core/client/js/messaging/observer.js",
+				"/home/abularca/Work/rainjs/lib/util.js",
+				"/home/abularca/Work/rainjs/lib/authorization.js",
+				"/home/abularca/Work/rainjs/Jakefile",
+				"/home/abularca/Work/rainjs/tools/check_header.js",
+				"/home/abularca/Work/dotfiles/config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/abularca/Work/dotfiles/config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 				"/home/abularca/Work/sprint/plugins/server/middleware/session.js",
 				"/home/abularca/Work/sprint/plugins/server/oauth2.js",
 				"/home/abularca/Work/sprint/Jakefile",
@@ -229,7 +255,6 @@
 				"/home/abularca/Work/rainjs/doc/source/server/authorization.rst",
 				"/home/abularca/Work/rainjs/doc/source/index.rst",
 				"/home/abularca/Work/rainjs/tests/client/lib/bootstrap.js",
-				"/home/abularca/Work/rainjs/lib/server.js",
 				"/home/abularca/Work/rainjs/components/example_list/client/templates/client_side_text_localization.html",
 				"/home/abularca/Work/rainjs/tests/client/tests/require_json.spec.js",
 				"/home/abularca/Work/rainjs/lib/registry/precompile_less.js",
@@ -237,10 +262,8 @@
 				"/home/abularca/Work/rainjs/tests/client/mocks/mocks.js",
 				"/home/abularca/Work/rainjs/tests/client/conf/ClientTests.jstd",
 				"/home/abularca/Work/rainjs/tests/client/mocks/asd.js",
-				"/home/abularca/Work/rainjs/Jakefile",
 				"/home/abularca/Work/rainjs/conf/server.conf.default",
 				"/home/abularca/Work/rainjs/components/core/client/js/lib/require-locale.js",
-				"/home/abularca/Work/rainjs/components/core/client/js/raintime.js",
 				"/home/abularca/Work/rainjs/bin/rain.js",
 				"/home/abularca/Work/rainjs/components/core/client/js/lib/jed.js",
 				"/home/abularca/Work/rainjs/doc/source/getting_started/installation.rst",
@@ -317,20 +340,7 @@
 				"/home/abularca/Work/rain/client-test.sh",
 				"/home/abularca/Work/rain/components/core/client/templates/dialog.html",
 				"/home/abularca/Work/rain/components/example_2_0/client/templates/index.html",
-				"/home/abularca/Work/rain/components/core/client/js/client_rendering.js",
-				"/home/abularca/Work/rain/components/example_2_0/server/authorization.js",
-				"/home/abularca/Work/rain/components/example_2_0/client/js/index.js",
-				"/home/abularca/Work/rain/components/example_2_0/server/controller/index.js",
-				"/home/abularca/Work/rain/components/example_new/client/css/postit.css",
-				"/home/abularca/Work/rain/components/example_new/client/templates/postit.html",
-				"/home/abularca/Work/rain/components/example_new/meta.json",
-				"/home/abularca/Work/rain/lib/proxy_store.js",
-				"/home/abularca/.config/sublime-text-2/Packages/SublimeLinter/Base File.sublime-settings",
-				"/home/abularca/.config/sublime-text-2/Packages/Nodejs/Nodejs.sublime-settings",
-				"/home/abularca/Work/rain/.gitignore",
-				"/home/abularca/Work/rain/doc/source/server/error_component.rst",
-				"/home/abularca/Work/rain/server.log",
-				"/home/abularca/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+				"/home/abularca/Work/rain/components/core/client/js/client_rendering.js"
 			],
 			"find":
 			{
@@ -341,6 +351,7 @@
 				"height": 0.0,
 				"where_history":
 				[
+					"/home/abularca/Work/rainjs",
 					"/home/abularca/Work/sprint",
 					"/home/abularca/Work/rainjs",
 					"/home/abularca/Work/rain/bin",
@@ -352,8 +363,12 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"when",
-					"debug",
+					"ignore",
+					"seq",
+					"Controller",
+					"deregister",
+					"walksync",
+					"walkSync",
 					"genera",
 					"consol",
 					"console",
@@ -413,6 +428,7 @@
 				"regex": false,
 				"replace_history":
 				[
+					"Dialog"
 				],
 				"reverse": true,
 				"show_context": true,
@@ -453,7 +469,7 @@
 			"menu_visible": true,
 			"replace":
 			{
-				"height": 0.0
+				"height": 62.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -462,8 +478,40 @@
 				"selected_items":
 				[
 					[
-						"session",
-						"plugins/server/middleware/session.js"
+						"server",
+						"lib/server.js"
+					],
+					[
+						"raine",
+						"lib/rain_error.js"
+					],
+					[
+						"rain_err",
+						"lib/rain_error.js"
+					],
+					[
+						"watcher",
+						"lib/watcher.js"
+					],
+					[
+						"observer",
+						"components/core/client/js/messaging/observer.js"
+					],
+					[
+						"raintime",
+						"components/core/client/js/raintime.js"
+					],
+					[
+						"dialog",
+						"components/core/client/js/dialog.js"
+					],
+					[
+						"jakefi",
+						"Jakefile"
+					],
+					[
+						"util.js",
+						"lib/util.js"
 					],
 					[
 						"oaut",
@@ -486,16 +534,8 @@
 						"lib/component_registry.js"
 					],
 					[
-						"server",
-						"lib/server.js"
-					],
-					[
 						"jstd",
 						"tests/client/conf/ClientTests.jstd"
-					],
-					[
-						"jakefi",
-						"Jakefile"
 					],
 					[
 						"bin/rain",
@@ -540,14 +580,6 @@
 					[
 						"intent",
 						"lib/intent_registry.js"
-					],
-					[
-						"raintime",
-						"components/core/client/js/raintime.js"
-					],
-					[
-						"dialog",
-						"components/core/client/templates/dialog.html"
 					],
 					[
 						"renderer",
@@ -621,34 +653,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/abularca/Work/rainjs/lib/rain_error.js",
+					"file": "/home/arcade/Work/worms/oldclient/scripts/main.js",
 					"settings":
 					{
-						"buffer_size": 1567,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/abularca/Work/rainjs/components/example_list/client/templates/intent_security.html",
-					"settings":
-					{
-						"buffer_size": 252,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/abularca/Work/rainjs/components/example_list/client/js/intent_security.js",
-					"settings":
-					{
-						"buffer_size": 1491,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/abularca/Work/rainjs/lib/server.js",
-					"settings":
-					{
-						"buffer_size": 2391,
+						"buffer_size": 17449,
 						"line_ending": "Unix"
 					}
 				}
@@ -829,6 +837,20 @@
 			},
 			"file_history":
 			[
+				"/home/arcade/Work/worms/oldclient/scripts/main.js+",
+				"/home/arcade/Work/worms/oldclient/scripts/sub",
+				"/home/arcade/Work/worms/oldclient/scripts/main.js",
+				"/home/arcade/Work/worms/oldclient/scripts/>",
+				"/home/arcade/Work/worms/oldclient/scripts/2>",
+				"/dev/null",
+				"/home/arcade/Work/worms/package.json",
+				"/home/arcade/Work/worms/server.coffee",
+				"/etc/nginx/sites-available/worms",
+				"/tmp/yaourt-tmp-arcade/aur-nginx-spdy/PKGBUILD",
+				"/home/arcade/Work/worms/config.json",
+				"/home/arcade/Work/dotfiles/config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/arcade/Work/ubervu/mozaic/bundler/bin/bundle",
+				"/home/arcade/Work/ubervu/mozaic/bundler/lib/bundler.coffee",
 				"/home/abularca/Work/rainjs/lib/rain_error.js",
 				"/home/abularca/Work/rainjs/lib/server.js",
 				"/home/abularca/Work/rainjs/lib/watcher.js",
@@ -942,21 +964,7 @@
 				"/home/abularca/Work/rain/components/core/client/js/messaging/observer.js",
 				"/home/abularca/Work/rain/components/core/client/js/dialog.js",
 				"/home/abularca/Work/rain/lib/router_utils.js",
-				"/home/abularca/Work/rain/lib/rain_error.js",
-				"/home/abularca/Work/rain/dsa.js",
-				"/home/abularca/Work/rain/components/example_list/client/js/index.js",
-				"/home/abularca/.bashrc",
-				"/home/abularca/Work/rain/components/example_list/client/templates/index.html",
-				"/home/abularca/Work/rain/components/example_list/client/templates/intent_security.html",
-				"/home/abularca/Work/rain/components/example_list/client/templates/denied.html",
-				"/home/abularca/Work/rain/components/core/client/css/modal.css",
-				"/home/abularca/Work/rain/client-test.sh",
-				"/home/abularca/Work/rain/components/core/client/templates/dialog.html",
-				"/home/abularca/Work/rain/components/example_2_0/client/templates/index.html",
-				"/home/abularca/Work/rain/components/core/client/js/client_rendering.js",
-				"/home/abularca/Work/rain/components/example_2_0/server/authorization.js",
-				"/home/abularca/Work/rain/components/example_2_0/client/js/index.js",
-				"/home/abularca/Work/rain/components/example_2_0/server/controller/index.js"
+				"/home/abularca/Work/rain/lib/rain_error.js"
 			],
 			"find":
 			{
@@ -979,6 +987,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"ignore",
 					"seq",
 					"Controller",
 					"deregister",
@@ -1054,105 +1063,28 @@
 			"folders":
 			[
 				{
-					"path": "/home/abularca/Work/rainjs"
+					"path": "/home/arcade/Work/worms"
 				}
 			],
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/abularca/Work/rainjs/lib/rain_error.js",
+							"file": "/home/arcade/Work/worms/oldclient/scripts/main.js",
 							"settings":
 							{
-								"buffer_size": 1567,
+								"buffer_size": 17449,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1240,
-										1265
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 51.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/abularca/Work/rainjs/components/example_list/client/templates/intent_security.html",
-							"settings":
-							{
-								"buffer_size": 252,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										251,
+										0,
 										0
 									]
 								],
@@ -1207,164 +1139,11 @@
 										"Python Django": "python"
 									},
 									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/HTML/HTML.tmLanguage"
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/abularca/Work/rainjs/components/example_list/client/js/intent_security.js",
-							"settings":
-							{
-								"buffer_size": 1491,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										436,
-										436
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/abularca/Work/rainjs/lib/server.js",
-							"settings":
-							{
-								"buffer_size": 2391,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1814,
-										1814
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 765.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -1403,7 +1182,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,1,0,0,0,105,26,745,506,2560,1024",
+			"position": "0,1,0,0,0,0,0,0,0,1280,800",
 			"replace":
 			{
 				"height": 62.0
@@ -1414,6 +1193,14 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"s",
+						"server.coffee"
+					],
+					[
+						"conf",
+						"config.json"
+					],
 					[
 						"server",
 						"lib/server.js"
@@ -1559,7 +1346,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 225.0,
 			"status_bar_visible": true,
-			"window_id": 15,
+			"window_id": 18,
 			"workspace_name": ""
 		}
 	],

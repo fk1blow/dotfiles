@@ -6,6 +6,7 @@ site: https://github.com/SublimeText/NaturalDocs
 Based on DocBlockr by Nick Fisher (https://github.com/spadgos/sublime-jsdocs)
 """
 import sublime_plugin
+import sublime
 import re
 import os
 import sys
@@ -16,7 +17,7 @@ if path not in sys.path:
 
 
 def read_line(view, point):
-    if (point >= view.size()):
+    if (point > view.size()):
         return
 
     next_line = view.line(point)
@@ -36,7 +37,7 @@ def counter():
 
 def get_parser(view):
     scope = view.scope_name(view.sel()[0].end())
-    preferences = view.settings()
+    preferences = sublime.load_settings('NaturalDocs.sublime-settings')
 
     res = re.search('source\\.(?P<source>\w+)', scope)
     if not res:
@@ -60,7 +61,7 @@ class NaturalDocsCommand(sublime_plugin.TextCommand):
     def run(self, edit, definition='', inline=False):
         v = self.view
 
-        settings = v.settings()
+        settings = sublime.load_settings('NaturalDocs.sublime-settings')
         point = v.sel()[0].end()
 
         parser = get_parser(v)
@@ -76,6 +77,11 @@ class NaturalDocsCommand(sublime_plugin.TextCommand):
             line = definition
         else:
             line = read_line(v, point)
+
+            if point == v.size():
+                v.run_command("insert", {"characters": "\n"})
+                v.run_command("move", {"by": "lines", "forward": False})
+                v.run_command("move_to", {"to": "eol", "extend": False})
 
             if parser.insert_after_def:
                 # move cursor below current line
@@ -296,6 +302,10 @@ class NaturalDocsGroupCommand(sublime_plugin.TextCommand):
         if parser.space_before_end:
             block += '\n'
 
+        whitespace = re.match('^\s*', block_middle).group(0)
+        if len(whitespace) > 0:
+            block_end = whitespace + block_end
+
         block += block_end
 
         for sel in v.sel():
@@ -303,14 +313,17 @@ class NaturalDocsGroupCommand(sublime_plugin.TextCommand):
             for line_region in lines:
                 # step 1 - move anything on the line down
                 current_line = v.substr(line_region)
+                doc_block = block
+
                 if current_line.strip():
                     v.run_command("move_to", {"to": "bol", "extend": False})
                     v.run_command("insert", {"characters": "\n"})
                     v.run_command("move", {"by": "lines", "forward": False})
 
-                # keep whitespace
-                whitespace = re.match('^\s+', current_line).group(0)
-                doc_block = block.replace('\n', '\n' + whitespace)
+                if len(current_line) > 0:
+                    # keep whitespace
+                    whitespace = re.match('^\s+', current_line).group(0)
+                    doc_block = block.replace('\n', '\n' + whitespace)
 
                 # step 2 - insert group block
                 v.insert(edit, line_region.end(), doc_block)
