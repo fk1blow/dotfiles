@@ -33,12 +33,11 @@ class NewFolderCommand(sublime_plugin.WindowCommand):
 
 class DeleteFolderCommand(sublime_plugin.WindowCommand):
     def run(self, dirs):
-        if sublime.ok_cancel_dialog("Delete Folder?", "Delete"):
-            try:
-                for d in dirs:
-                    send2trash.send2trash(d)
-            except:
-                sublime.status_message("Unable to delete folder")
+        try:
+            for d in dirs:
+                send2trash.send2trash(d)
+        except:
+            sublime.status_message("Unable to delete folder")
 
     def is_visible(self, dirs):
         return len(dirs) > 0
@@ -70,7 +69,7 @@ class RenamePathCommand(sublime_plugin.WindowCommand):
 class OpenContainingFolderCommand(sublime_plugin.WindowCommand):
     def run(self, files):
         branch,leaf = os.path.split(files[0])
-        self.window.run_command("open_dir", {"dir": branch, "file": leaf})
+        self.window.run_command("open_dir", {"dir": branch, "file": leaf} )
 
     def is_visible(self, files):
         return len(files) > 0
