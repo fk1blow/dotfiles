@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	"auto_upgrade_last_run": 1341385349,
+=======
+	"auto_upgrade_last_run": 1341335649,
+>>>>>>> e99137162d4f48d8dcba6be3ca1fe9f252d78fa5
 	"installed_packages":
 	[
 		"Auto Semi-Colon",
