@@ -1,9 +1,11 @@
 {
-	"auto_upgrade_last_run": 1341335649,
+	"auto_upgrade_last_run": 1341493450,
 	"installed_packages":
 	[
 		"Auto Semi-Colon",
 		"CoffeeScript",
+		"Dictionaries",
+		"DocBlockr",
 		"FileTemplates",
 		"Gist",
 		"Git",
@@ -12,12 +14,16 @@
 		"NaturalDocs",
 		"Nodejs",
 		"Package Control",
+		"Restructured Text (RST) Snippets",
+		"RstPreview",
 		"Shell Turtlestein",
 		"Smart Match",
 		"Stylus",
 		"SublimeLinter",
 		"SublimeREPL",
+		"Surround Code with Snippets",
 		"Theme - Soda",
+		"TODO Control",
 		"TomDoc",
 		"VintageEx",
 		"ZenCoding"

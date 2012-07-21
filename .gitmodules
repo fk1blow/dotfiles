@@ -1,0 +1,27 @@
+[submodule "vim/bundle/VimClojure"]
+	path = vim/bundle/VimClojure
+	url = git://github.com/vim-scripts/VimClojure.git
+[submodule "config/sublime-text-2/Packages/SublimeCodeIntel"]
+	path = config/sublime-text-2/Packages/SublimeCodeIntel
+	url = https://github.com/Kronuz/SublimeCodeIntel.git
+[submodule "vim/bundle/surround"]
+	path = vim/bundle/surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "vim/bundle/repeat"]
+	path = vim/bundle/repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "vim/bundle/git-vim"]
+	path = vim/bundle/git-vim
+	url = https://github.com/motemen/git-vim.git
+[submodule "vim/bundle/jshint.vim"]
+	path = vim/bundle/jshint.vim
+	url = https://github.com/walm/jshint.vim.git
+[submodule "vim/bundle/lusty.vim"]
+	path = vim/bundle/lusty.vim
+	url = https://github.com/sjbach/lusty.git
+[submodule "vim/bundle/snipmate.vim"]
+	path = vim/bundle/snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "vim/bundle/surround.vim"]
+	path = vim/bundle/surround.vim
+	url = https://github.com/tpope/vim-surround.git

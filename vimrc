@@ -9,6 +9,7 @@ set fileencodings^=utf-8
 
 "--------------------------------------------------
 " Base settings
+set encoding=utf-8
 set nocompatible          " We're running Vim, not Vi!
 syntax on                 " syntax highlingt
 set autoindent            " automatical code indent
@@ -23,7 +24,7 @@ filetype plugin indent on        " file type based syntax highliht
 set ts=4                  " tab stop
 set sw=4                  " shift width (with autoindent)
 set textwidth=2048        " text witdth
-set nu                    " show numbers
+set relativenumber        " show numbers
 set lcs=tab:>.,eol:$      " show non printed chars
 set autowrite             " Writes on make/shell commands
 set whichwrap+=<,>,[,]    " where wrap long lines
@@ -46,6 +47,17 @@ set smarttab              " insert tabs on the start of line according to shiftw
 set title                 " change the terminal title
 set nobackup              " never backup files
 set noswapfile            " never create swap files
+set cursorline
+set backspace=indent,eol,start
+set laststatus
+set undofile
+set ttyfast
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
 
 "-------------------------------------------------
 " ESC-c ... capitalize current word (and goto next word)
@@ -144,14 +156,22 @@ map tx <Esc>:tabn<CR>
 map tl <Esc>:tablast<CR>
 
 " Activate Pathogen
+filetype off
 call pathogen#infect()
+filetype plugin indent on
 set hidden
 
 " disable arrow keys
-noremap <Up> <nop>
-noremap <Down> <nop>
-noremap <Left> <nop>
-noremap <Right> <nop>
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+nnoremap j gj
+nnoremap k gk
 
 
 " MACROS
@@ -185,7 +205,7 @@ nnoremap <leader>h *<C-O>
 set pastetoggle=<F2>
 
 " Automatically reload .vimrc when it's saved
-au BufWritePost .vimrc so ~/.vimrc
+" au BufWritePost .vimrc so ~/.vimrc
 
 " Force saving of files that require sudo
 cmap w!! %!sudo tee > /dev/null
@@ -223,3 +243,24 @@ nnoremap <silent> <F3> :%y*<CR>
 
 " Replace entire buffer with the contents of the system register
 nnoremap <silent> <S-F3> :normal ggdG"*PGgg<CR>
+
+
+nnoremap / /\v
+vnoremap / /\v
+nnoremap <tab> %
+vnoremap <tab> %
+
+" automatically save file on focus lost
+au FocusLost * :wa
+
+" fold html tag
+nnoremap <leader>ft Vatzf
+
+" open a new vertical split
+nnoremap <leader>w <C-w>v<C-w>l
+
+" split navigation
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l

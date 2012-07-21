@@ -1,2 +1,15 @@
 let g:netrw_dirhistmax  =10
+<<<<<<< HEAD
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/abularca/Work/sprint/components/example_list'
+let g:netrw_dirhist_2='/home/abularca/.lein/plugins'
+let g:netrw_dirhist_3='/home/abularca/.oh-my-zsh/plugins/git'
+let g:netrw_dirhist_4='/usr/local/lib/node_modules/node-inspector'
+let g:netrw_dirhist_5='/home/abularca/Work/rainjs/bin/commands'
+let g:netrw_dirhist_6='/home/abularca/Work/sprint/components/form'
+let g:netrw_dirhist_7='/home/abularca/Work/sprint/tests/server/tests'
+let g:netrw_dirhist_8='/home/abularca/Work/rainjs/bin'
+let g:netrw_dirhist_9='/home/abularca/Work/rainjs/tests/server/tests/sdk'
+=======
 let g:netrw_dirhist_cnt =0
+>>>>>>> e99137162d4f48d8dcba6be3ca1fe9f252d78fa5

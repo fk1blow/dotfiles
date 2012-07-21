@@ -503,6 +503,11 @@ If set to `false`, the normal comment tag will be used. Example:
 
 # Changelog
 
+<<<<<<< HEAD
+## June 11, 2012
+
+* Resolved Issue #5 -- Move settings file to `NaturalDocs.sublime-settings` / `User/NaturalDocs.sublime-settings`
+=======
 ## June 29, 2012
 
 * Resolved Issue #6: inserting doc-blocks does not work when directly above EOF
@@ -511,6 +516,7 @@ If set to `false`, the normal comment tag will be used. Example:
 ## June 11, 2012
 
 * Resolved Issue #5: Move settings file to `NaturalDocs.sublime-settings` / `User/NaturalDocs.sublime-settings`
+>>>>>>> e99137162d4f48d8dcba6be3ca1fe9f252d78fa5
 
 ## May 15, 2012
 

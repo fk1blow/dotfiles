@@ -78,10 +78,18 @@ class NaturalDocsCommand(sublime_plugin.TextCommand):
         else:
             line = read_line(v, point)
 
+<<<<<<< HEAD
+            if line is None:
+                # there is no line beneath the cursor (e.g. EOF)
+                v.run_command("insert", {"characters": "\n"})
+                v.run_command("move", {"by": "lines", "forward": False})
+                line = read_line(v, point)
+=======
             if point == v.size():
                 v.run_command("insert", {"characters": "\n"})
                 v.run_command("move", {"by": "lines", "forward": False})
                 v.run_command("move_to", {"to": "eol", "extend": False})
+>>>>>>> e99137162d4f48d8dcba6be3ca1fe9f252d78fa5
 
             if parser.insert_after_def:
                 # move cursor below current line
