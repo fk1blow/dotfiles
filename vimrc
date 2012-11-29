@@ -49,7 +49,6 @@ set nobackup              " never backup files
 set noswapfile            " never create swap files
 set cursorline
 set backspace=indent,eol,start
-set laststatus
 set undofile
 set ttyfast
 set ignorecase
