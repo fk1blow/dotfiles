@@ -39,3 +39,5 @@ export PATH=/home/abularca/.rbenv/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/
 export TERM="xterm-256color"
 alias jake="noglob jake"
 alias open='xdg-open "$@" > /dev/null 2> /dev/null'
+
+PATH=$PATH:$HOME/.manymo/bin # Add manymo to PATH for scripting

@@ -84,8 +84,8 @@ inoremap <S-Tab> <C-R>=InsertTabWrapper("forward")<CR>
 
 "--------------------------------------------------
 " Duplicate line
-map! <c-d> <esc>yypi
-map <c-d> <esc>yyp
+"map! <c-d> <esc>yypi
+"map <c-d> <esc>yyp
 
 "--------------------------------------------------
 " File tree on F7
@@ -96,10 +96,6 @@ let NERDTreeMapActivateNode='<CR>'
 " Change encoding
 map _u :set encoding=utf-8<cr>:set fileencodings^=utf-8<cr>:set termencoding=utf-8<cr>
 map _i :set encoding=iso-8859-2<cr>:set fileencodings^=iso-8859-2<cr>:set termencoding=iso-8859-2<cr>
-
-"--------------------------------------------------
-" Non indend paste: <F11><S-Ins><F11>
-set pastetoggle=<F11>
 
 "--------------------------------------------------
 " Open in last edit place
@@ -204,9 +200,6 @@ nnoremap <leader>h *<C-O>
 " set <F2> for toggling paste mode
 set pastetoggle=<F2>
 
-" Automatically reload .vimrc when it's saved
-" au BufWritePost .vimrc so ~/.vimrc
-
 " Force saving of files that require sudo
 cmap w!! %!sudo tee > /dev/null
 
@@ -223,7 +216,7 @@ inoremap <F1> <nop>
 nnoremap <F1> <nop>
 vnoremap <F1> <nop>
 
-j" select all
+" select all
 map <leader>a ggVG
 
 " make <CR> in normal mode to insert a new line
@@ -245,8 +238,6 @@ nnoremap <silent> <F3> :%y*<CR>
 nnoremap <silent> <S-F3> :normal ggdG"*PGgg<CR>
 
 
-nnoremap / /\v
-vnoremap / /\v
 nnoremap <tab> %
 vnoremap <tab> %
 

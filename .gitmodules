@@ -25,3 +25,6 @@
 [submodule "vim/bundle/surround.vim"]
 	path = vim/bundle/surround.vim
 	url = https://github.com/tpope/vim-surround.git
+[submodule "vim/bundle/powerline.vim"]
+	path = vim/bundle/powerline.vim
+	url = https://github.com/Lokaltog/vim-powerline.git
