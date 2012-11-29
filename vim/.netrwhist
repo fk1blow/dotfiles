@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/home/abularca/Work/sprint/components/example_list/server'
 let g:netrw_dirhist_2='/home/abularca/Work/sprint/tests/client/tests'
+let g:netrw_dirhist_3='/home/abularca/Work/dotfiles/vim'
