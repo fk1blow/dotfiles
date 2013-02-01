@@ -32,6 +32,7 @@ ZSH_THEME="arcade"
 plugins=(git cake compleat ai github npm archlinux lein node pip screen)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.zsh/git-prompt/zshrc.sh
 
 # Customize to your needs...
 export PATH=/home/abularca/.rbenv/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/abularca/.gem/ruby/1.8/bin:/opt/nginx/sbin:/home/abularca/.bin:

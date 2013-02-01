@@ -1,0 +1,1 @@
+/home/abularca/.zsh
