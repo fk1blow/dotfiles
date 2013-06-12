@@ -43,4 +43,37 @@ alias open='xdg-open "$@" > /dev/null 2> /dev/null'
 alias sub='subl $0'
 
 PATH=$PATH:$HOME/.manymo/bin # Add manymo to PATH for scripting
+PATH=$PATH:$HOME/playground/ubervu/thehole/node_modules/.bin
 ZSH=$HOME/.oh-my-zsh
+
+SSH_AUTH_SOCK=`netstat -xl | grep -o '/run/user/1000/keyring-bF5Dq7/ssh'`
+[ -z "$SSH_AUTH_SOCK" ] || export SSH_AUTH_SOCK
+
+function aa_power_settings ()
+{
+  sudo bash -c '
+    for i in `find /sys/devices -name "bMaxPower"`;
+    do
+        for ii in `find $i -type f`;
+        do
+            bd=`dirname $ii`;
+            busnum=`cat $bd/busnum`;
+            devnum=`cat $bd/devnum`;
+            title=`lsusb -s $busnum:$devnum`;
+            echo -e "\n\n+++ $title\n  -$bd\n  -$ii";
+            for ff in `find $bd/power -type f ! -empty 2>/dev/null`;
+            do
+                v=`cat $ff 2>/dev/null|tr -d "\n"`;
+                [[ ${#v} -gt 0 ]] && echo -e " `basename $ff`=$v";
+                v=;
+            done | sort -g;
+        done;
+    done;
+    echo -e "\n\n\n+++ Kernel Modules\n";
+    for m in `command lspci -k|sed -n "/in use:/s,^.*: ,,p"|sort -u`;
+    do
+        echo "+ $m";
+        systool -v -m $m 2> /dev/null | sed -n "/Parameters:/,/^$/p";
+    done
+  ';
+}

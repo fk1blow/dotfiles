@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/abularca/Work/sprint/components/example_list/server'
-let g:netrw_dirhist_2='/home/abularca/Work/sprint/tests/client/tests'
-let g:netrw_dirhist_3='/home/abularca/Work/dotfiles/vim'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/arcade/playground/ubervu/thehole/node_modules/grunt-contrib-coffee'
+let g:netrw_dirhist_2='/tmp/yaourt-tmp-arcade/aur-chromium-dev/pkg'
+let g:netrw_dirhist_3='/tmp/pip-build-root/mysql-python'
+let g:netrw_dirhist_4='/home/arcade/playground/ubervu/thehole/email_alerts/test'
+let g:netrw_dirhist_5='/home/arcade/playground/ubervu/thehole/email_alerts'
+let g:netrw_dirhist_6='/home/arcade/playground/ubervu/thehole/public_website'
+let g:netrw_dirhist_7='/home/arcade/playground/ubervu/thehole'
+let g:netrw_dirhist_8='/etc/X11'

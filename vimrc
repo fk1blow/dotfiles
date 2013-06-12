@@ -20,7 +20,6 @@ set backspace=2           " backspace del all
 set history=1000          " history of commands
 set undolevels=1000       " use muchos levels of undo
 set hlsearch              " highlignt search fraze
-filetype plugin indent on        " file type based syntax highliht
 set ts=4                  " tab stop
 set sw=4                  " shift width (with autoindent)
 set textwidth=2048        " text witdth
@@ -57,6 +56,7 @@ set gdefault
 set incsearch
 set showmatch
 set hlsearch
+set cc=80                 " visual marker for the 80 character limit
 
 "-------------------------------------------------
 " ESC-c ... capitalize current word (and goto next word)
@@ -200,7 +200,7 @@ nnoremap <leader>h *<C-O>
 set pastetoggle=<F2>
 
 " Force saving of files that require sudo
-cmap w!! %!sudo tee > /dev/null
+cmap w!! w !sudo tee > /dev/null %
 
 " Custom invisibles
 set list
@@ -231,7 +231,7 @@ nnoremap <leader>T :set expandtab<cr>:retab!<cr>
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
 " Yank entire buffer to the system register
-nnoremap <silent> <F3> :%y*<CR>
+nnoremap <silent> <F3> :%y+<CR>
 
 " Replace entire buffer with the contents of the system register
 nnoremap <silent> <S-F3> :normal ggdG"*PGgg<CR>
@@ -254,3 +254,47 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" Set handlebars filetype for .hjs files
+au BufNewFile,BufRead *.hjs set filetype=handlebars
+au BufNewFile,BufRead *.py set fileencoding=ASCII
+
+" Save your backups to a less annoying place than the current directory.
+" If you have .vim-backup in the current directory, it'll use that.
+" Otherwise it saves it to ~/.vim/backup or . if all else fails.
+if isdirectory($HOME . '/.vim/backup') == 0
+  :silent !mkdir -p ~/.vim/backup >/dev/null 2>&1
+endif
+set backupdir-=.
+set backupdir+=.
+set backupdir-=~/
+set backupdir^=~/.vim/backup/
+set backupdir^=./.vim-backup/
+set backup
+
+" Save your swp files to a less annoying place than the current directory.
+" If you have .vim-swap in the current directory, it'll use that.
+" Otherwise it saves it to ~/.vim/swap, ~/tmp or .
+if isdirectory($HOME . '/.vim/swap') == 0
+  :silent !mkdir -p ~/.vim/swap >/dev/null 2>&1
+endif
+set directory=./.vim-swap//
+set directory+=~/.vim/swap//
+set directory+=~/tmp//
+set directory+=.
+
+" viminfo stores the the state of your previous editing session
+set viminfo+=n~/.vim/viminfo
+
+if exists("+undofile")
+  " undofile - This allows you to use undos after exiting and restarting
+  " This, like swap and backups, uses .vim-undo first, then ~/.vim/undo
+  " :help undo-persistence
+  " This is only present in 7.3+
+  if isdirectory($HOME . '/.vim/undo') == 0
+    :silent !mkdir -p ~/.vim/undo > /dev/null 2>&1
+  endif
+  set undodir=./.vim-undo//
+  set undodir+=~/.vim/undo//
+  set undofile
+endif
