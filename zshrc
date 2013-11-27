@@ -29,7 +29,7 @@ ZSH_THEME="arcade"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git cake compleat ai github npm archlinux lein node pip screen)
+plugins=(git cake compleat ai github npm lein node pip screen battery bower coffee colorize command-not-found composer docker django fabric git-extras go golang heroku jake-node knife laravel nvm pip python rake redis-cli screen ssh-agent sublime vagrant debian)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh/git-prompt/zshrc.sh
@@ -41,6 +41,7 @@ export TERM="xterm-256color"
 alias jake="noglob jake"
 alias open='xdg-open "$@" > /dev/null 2> /dev/null'
 alias sub='subl $0'
+alias git=hub
 
 PATH=$PATH:$HOME/.manymo/bin # Add manymo to PATH for scripting
 PATH=$PATH:$HOME/playground/ubervu/thehole/node_modules/.bin
@@ -77,3 +78,7 @@ function aa_power_settings ()
     done
   ';
 }
+
+export PATH=${PATH}:/opt/android_sdk/platform-tools:/opt/android_sdk/tools
+export CHROME_BIN=/usr/bin/chromium-browser
+export EDITOR=subl
