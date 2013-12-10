@@ -82,3 +82,7 @@ function aa_power_settings ()
 export PATH=${PATH}:/opt/android_sdk/platform-tools:/opt/android_sdk/tools
 export CHROME_BIN=/usr/bin/chromium-browser
 export EDITOR=subl
+
+# App specific env vars
+export DB_PORT_27017_TCP_ADDR=127.0.0.1
+export DB_PORT_27017_TCP_PORT=27017
