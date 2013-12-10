@@ -41,7 +41,7 @@ export TERM="xterm-256color"
 alias jake="noglob jake"
 alias open='xdg-open "$@" > /dev/null 2> /dev/null'
 alias sub='subl $0'
-alias git=hub
+#alias git=hub
 
 PATH=$PATH:$HOME/.manymo/bin # Add manymo to PATH for scripting
 PATH=$PATH:$HOME/playground/ubervu/thehole/node_modules/.bin
