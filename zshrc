@@ -77,3 +77,6 @@ function aa_power_settings ()
     done
   ';
 }
+
+export CHROME_BIN=chromium-browser
+export DART_SDK=/opt/dart-sdk
