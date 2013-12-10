@@ -40,7 +40,8 @@ export PATH=/home/abularca/.rbenv/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/
 export TERM="xterm-256color"
 alias jake="noglob jake"
 alias open='xdg-open "$@" > /dev/null 2> /dev/null'
-alias sub='subl $0'
+alias sub='subl $@'
+alias gvim='gvim $@ > /dev/null 2>&1'
 #alias git=hub
 
 PATH=$PATH:$HOME/.manymo/bin # Add manymo to PATH for scripting
