@@ -37,3 +37,6 @@
 [submodule "vim/bundle/handlebars.vim"]
 	path = vim/bundle/handlebars.vim
 	url = git://github.com/nono/vim-handlebars.git
+[submodule "vim/bundle/ternjs"]
+	path = vim/bundle/ternjs
+	url = git@github.com:marijnh/tern_for_vim.git
