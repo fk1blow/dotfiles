@@ -40,3 +40,6 @@
 [submodule "vim/bundle/ternjs"]
 	path = vim/bundle/ternjs
 	url = git@github.com:marijnh/tern_for_vim.git
+[submodule "vim/bundle/qml.vim"]
+	path = vim/bundle/qml.vim
+	url = https://github.com/peterhoeg/vim-qml.git
