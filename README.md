@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-My dot file configuration
+His dot file configuration
