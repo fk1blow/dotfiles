@@ -135,7 +135,7 @@
   "theme_overrides": {
     "Base16 Rosé Pine Moon": {
       "hint": "#3f3a52",
-      "tab.active_background": "#393552",
+      "tab.active_background": "#413b64de",
       "tab.inactive_background": "#201e32",
       // "tab.unfocused_active_background": "#2a273f",
       // "tab.unfocused_inactive_background": "#201e32",
@@ -165,7 +165,7 @@
       "players": [
         {
           "cursor": "#db95a7",
-          "selection": "#eb6f9242",
+          "selection": "#d47ccd42",
         },
       ],
       "syntax": {
@@ -173,7 +173,7 @@
           "color": "#e0899e",
         },
         "variable": {
-          "color": "#c4a7e7",
+          "color": "#eac8f0",
         },
         "punctuation.delimiter": {
           "color": "#6e6a86",
@@ -188,13 +188,16 @@
           "color": "#908caa",
         },
         "type": {
-          "color": "#c4a7e7",
+          "color": "#f6c177",
         },
         "type.builtin": {
-          "color": "#c4a7e7",
+          "color": "#f6c177",
         },
         "function": {
-          "color": "#c4a7e7",
+          "color": "#eac8f0",
+        },
+        "variable.parameter": {
+          "color": "#eac8f0",
         },
         "function.call": {
           "color": "#e0899e",
