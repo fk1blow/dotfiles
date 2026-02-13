@@ -1,0 +1,175 @@
+// Zed keymap
+// https://zed.dev/docs/key-bindings
+// Default keymap: `zed: open default keymap` from command palette
+[
+  // ============================================
+  // Workspace (global actions, docks, panels)
+  // ============================================
+  {
+    "context": "Workspace",
+    "bindings": {
+      // Pane focus (meh+u/i)
+      "ctrl-shift-alt-u": "workspace::ActivatePaneLeft",
+      "ctrl-shift-alt-i": "workspace::ActivatePaneRight",
+
+      // Move editor between panes (meh+y/o)
+      "ctrl-shift-alt-y": [
+        "workspace::MoveItemToPaneInDirection",
+        { "direction": "left" },
+      ],
+      "ctrl-shift-alt-o": [
+        "workspace::MoveItemToPaneInDirection",
+        { "direction": "right" },
+      ],
+
+      // Panel toggles
+      "cmd-b": "workspace::ToggleRightDock",
+      "shift-cmd-b": "project_panel::ToggleFocus",
+      "shift-cmd-a": "pane::RevealInProjectPanel",
+      "cmd-shift-g": "terminal_panel::Toggle",
+    },
+  },
+
+  // ============================================
+  // Pane (tab management, navigation history)
+  // ============================================
+  {
+    "context": "Pane",
+    "bindings": {
+      // Tab by number
+      "cmd-1": ["pane::ActivateItem", 0],
+      "cmd-2": ["pane::ActivateItem", 1],
+      "cmd-3": ["pane::ActivateItem", 2],
+      "cmd-4": ["pane::ActivateItem", 3],
+      "cmd-5": ["pane::ActivateItem", 4],
+      "cmd-6": ["pane::ActivateItem", 5],
+      "cmd-7": ["pane::ActivateItem", 6],
+      "cmd-8": ["pane::ActivateItem", 7],
+      "cmd-9": ["pane::ActivateItem", 8],
+
+      // Tab cycling (meh+h/l)
+      "shift-ctrl-alt-h": "pane::ActivatePreviousItem",
+      "shift-ctrl-alt-l": "pane::ActivateNextItem",
+      "ctrl-shift-alt-s": "pane::ActivateNextItem",
+      "ctrl-tab": "pane::ActivateNextItem",
+
+      // Swap tabs (meh+m, ctrl-alt-<)
+      "ctrl-shift-alt-m": "pane::SwapItemLeft",
+      "ctrl-alt-<": "pane::SwapItemRight",
+
+      // Navigation history (hyper+h/l, shift+cmd+h/l)
+      "shift-ctrl-alt-cmd-h": "pane::GoBack",
+      "shift-ctrl-alt-cmd-l": "pane::GoForward",
+      "shift-cmd-h": "pane::GoBack",
+      "shift-cmd-l": "pane::GoForward",
+
+      // Disable terminal toggle here (handled in Workspace/Editor)
+      "cmd-shift-g": null,
+
+      // Reopen closed tab
+      "cmd-shift-t": "pane::ReopenClosedItem",
+    },
+  },
+
+  // ============================================
+  // Editor (code actions, folding, zoom)
+  // ============================================
+  {
+    "context": "Editor",
+    "bindings": {
+      // Zoom (needs Editor context, not Workspace)
+      "shift-cmd-enter": "workspace::ToggleZoom",
+
+      // Terminal toggle
+      "cmd-shift-g": "terminal_panel::Toggle",
+
+      // Scroll viewport (meh+j/k)
+      "shift-ctrl-alt-j": [
+        "workspace::SendKeystrokes",
+        "ctrl-e ctrl-e ctrl-e ctrl-e ctrl-e",
+      ],
+      "shift-ctrl-alt-k": [
+        "workspace::SendKeystrokes",
+        "ctrl-y ctrl-y ctrl-y ctrl-y ctrl-y",
+      ],
+
+      // Code actions & refactoring
+      "cmd-k cmd-o": "editor::ToggleCodeActions",
+      "cmd-k cmd-r": "editor::Rename",
+
+      // Folding
+      "cmd-k cmd-0": "editor::UnfoldAll",
+      "cmd-k cmd-f": "editor::ToggleFold",
+      "cmd-k cmd-.": "editor::FoldSelectedRanges",
+
+      // Go to definition/references
+      "cmd-k cmd-l": "editor::GoToDefinition",
+      "cmd-k cmd-m": "editor::GoToImplementation",
+      "cmd-k cmd-j": "editor::FindAllReferences",
+
+      // Navigate the history
+      "shift-cmd-h": "pane::GoBack",
+      "shift-cmd-l": "pane::GoForward",
+    },
+  },
+
+  // ============================================
+  // Editor + Vim normal mode
+  // ============================================
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      // Jump 10 lines (hyper+j/k)
+      "shift-ctrl-alt-cmd-j": [
+        "workspace::SendKeystrokes",
+        "j j j j j j j j j j",
+      ],
+      "shift-ctrl-alt-cmd-k": [
+        "workspace::SendKeystrokes",
+        "k k k k k k k k k k",
+      ],
+    },
+  },
+
+  // ============================================
+  // Editor (full mode - definitions/references pane)
+  // ============================================
+  {
+    "context": "Editor && mode == full",
+    "bindings": {
+      "enter": "editor::OpenExcerpts",
+    },
+  },
+
+  // ============================================
+  // Project Panel
+  // ============================================
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "enter": "project_panel::Rename",
+      "up": "menu::SelectPrevious",
+      "down": "menu::SelectNext",
+    },
+  },
+
+  // ============================================
+  // Search
+  // ============================================
+  {
+    "context": "BufferSearchBar",
+    "bindings": {
+      "enter": "search::SelectNextMatch",
+    },
+  },
+
+  // ============================================
+  // Context Editor (AI agent panel)
+  // ============================================
+  {
+    "context": "ContextEditor > Editor",
+    "bindings": {
+      "cmd-shift-g": null,
+    },
+  },
+]

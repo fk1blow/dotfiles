@@ -1,0 +1,236 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+  "status_bar": {
+    "active_language_button": true,
+  },
+  "active_pane_modifiers": {
+    "border_size": 0.0,
+  },
+  "use_system_window_tabs": false,
+  "tabs": {
+    "show_close_button": "hover",
+    "git_status": false,
+    "file_icons": true,
+  },
+  "scrollbar": {
+    "show": "always",
+  },
+  "colorize_brackets": false,
+  "inlay_hints": {
+    "show_type_hints": true,
+    "enabled": false,
+    "show_background": false,
+    "show_other_hints": true,
+    "show_value_hints": true,
+  },
+  "toolbar": {
+    "code_actions": false,
+    "agent_review": false,
+    "selections_menu": true,
+    "quick_actions": false,
+    "breadcrumbs": true,
+  },
+  "minimum_contrast_for_highlights": 41.0,
+  "languages": {
+    "TypeScript": {
+      "show_edit_predictions": true,
+    },
+  },
+  "edit_predictions": {
+    "provider": "copilot",
+  },
+  "icon_theme": "Zed (Default)",
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
+  // "toolbar": {
+  //     "agent_review": false,
+  //     "code_actions": null,
+  //     "quick_actions": null,
+  //     "selections_menu": null,
+  //     "breadcrumbs": false
+  // },
+  "terminal": {
+    "dock": "right",
+    "font_family": "SF Mono",
+    "font_weight": 600,
+    "toolbar": {
+      "breadcrumbs": false,
+    },
+  },
+  "indent_guides": {
+    "background_coloring": "disabled",
+    "coloring": "fixed",
+    "active_line_width": 1,
+  },
+  "tab_size": 2,
+  "hard_tabs": false,
+  // "terminal": {
+  //     "dock": "right"
+  // },
+  "show_edit_predictions": false,
+  "agent": {
+    "dock": "right",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1",
+    },
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1",
+    },
+    "model_parameters": [],
+  },
+  "project_panel": {
+    "hide_gitignore": true,
+    "dock": "right",
+    "entry_spacing": "standard",
+    "indent_size": 22,
+    "indent_guides": {
+      "show": "never",
+    },
+    "folder_icons": false,
+  },
+  "telemetry": {
+    "metrics": false,
+  },
+  "title_bar": {
+    "show_branch_name": true,
+    "show_branch_icon": true,
+  },
+  "vim_mode": true,
+  "vim": {
+    "cursor_shape": {
+      "normal": "block",
+    },
+    "use_system_clipboard": "never",
+  },
+  "ui_font_size": 18,
+  // "ui_font_family": "SF Pro Display",
+  // "ui_font_weight": 500,
+  "buffer_font_size": 20.0,
+  "buffer_font_weight": 600.0,
+  // "buffer_font_family": "Monaspace Neon",
+  "buffer_font_family": "SF Mono",
+  "buffer_line_height": {
+    "custom": 1.4,
+  },
+  // Previously used themes
+  // "theme": "Base16 Rosé Pine Moon",
+  // "theme": "Base16 Tokyo Night Terminal Dark",
+  // "theme": "Base16 darkmoss",
+  // "theme": "Base16 Rosé Pine",
+  // "theme": "Melange Light",
+  // "theme": "Dune Sandworm",
+  "theme": "Base16 Rosé Pine Moon",
+  "theme_overrides": {
+    "Base16 Rosé Pine Moon": {
+      "hint": "#3f3a52",
+      "tab.active_background": "#393552",
+      "tab.inactive_background": "#201e32",
+      // "tab.unfocused_active_background": "#2a273f",
+      // "tab.unfocused_inactive_background": "#201e32",
+      "editor.background": "#201e32",
+      "editor.active_line.background": "#2a263d",
+      "editor.line_number": "#59546d",
+      "editor.active_line_number": "#d4bff7",
+      "border": "#393552",
+      "border.focused": "#c4a7e7",
+      "scrollbar.thumb.background": "#322d4d",
+      "tab_bar.background": "#201e32",
+      "toolbar.background": "#232136",
+      "editor.subheader.background": "#2f2a4a",
+      "status_bar.background": "#232136",
+      "panel.background": "#232136",
+      "editor.wrap_guide": "#2a273f",
+      "editor.document_highlight.read_background": "#6a65a080",
+      "editor.document_highlight.write_background": "#eb6f9299",
+      "search.match_background": "#904a6850",
+      "editor.gutter.background": "#201e32",
+      "text": "#e0def4",
+      "created": "#5a8a85",
+      "modified": "#8270a5",
+      "deleted": "#b04a60",
+      "editor.indent_guide": "#3a355780",
+      "editor.indent_guide_active": "#524f7a",
+      "players": [
+        {
+          "cursor": "#db95a7",
+          "selection": "#eb6f9242",
+        },
+      ],
+      "syntax": {
+        "keyword": {
+          "color": "#e0899e",
+        },
+        "variable": {
+          "color": "#c4a7e7",
+        },
+        "punctuation.delimiter": {
+          "color": "#6e6a86",
+        },
+        "punctuation.bracket": {
+          "color": "#6e6a86",
+        },
+        "comment": {
+          "color": "#59546d",
+        },
+        "operator": {
+          "color": "#908caa",
+        },
+        "type": {
+          "color": "#c4a7e7",
+        },
+        "type.builtin": {
+          "color": "#c4a7e7",
+        },
+        "function": {
+          "color": "#c4a7e7",
+        },
+        "function.call": {
+          "color": "#e0899e",
+        },
+        "method": {
+          "color": "#e0899e",
+        },
+        "punctuation.special": {
+          "color": "#6e6a86",
+        },
+      },
+    },
+  },
+  "relative_line_numbers": "enabled",
+  "show_wrap_guides": true,
+  "wrap_guides": [80, 100],
+  "format_on_save": "on",
+  "extend_comment_on_newline": false,
+  "show_completions_on_input": true,
+  "show_completion_documentation": true,
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "check": {
+          "command": "clippy", // rust-analyzer.check.command (default: "check")
+        },
+      },
+    },
+  },
+  "preview_tabs": {
+    "enabled": false,
+  },
+  // Never fucking highlight matches under cursor ffs
+  "lsp_highlight_debounce": 999999999999,
+  "gutter": {
+    "min_line_number_digits": 1,
+    "runnables": true,
+  },
+}
