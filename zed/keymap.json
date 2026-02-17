@@ -1,6 +1,11 @@
 // Zed keymap
 // https://zed.dev/docs/key-bindings
 // Default keymap: `zed: open default keymap` from command palette
+//
+// Common keybindings:
+// - cmd-b - toggle project panel (right dock)
+// - cmd-t - toggle terminal panel
+// - cmd-g - toggle git panel (left dock)
 [
   // ============================================
   // Workspace (global actions, docks, panels)
@@ -22,11 +27,21 @@
         { "direction": "right" },
       ],
 
-      // Panel toggles
-      "cmd-b": "workspace::ToggleRightDock",
-      "shift-cmd-b": "project_panel::ToggleFocus",
-      "shift-cmd-a": "pane::RevealInProjectPanel",
-      "cmd-shift-g": "terminal_panel::Toggle",
+      // Previously Panel toggles keybindings
+      // "cmd-b": "workspace::ToggleRightDock",
+      // "shift-cmd-b": "project_panel::ToggleFocus",
+      // "shift-cmd-a": "pane::RevealInProjectPanel",
+      // "cmd-shift-g": "terminal_panel::Toggle",
+
+      // Better Panel Keybindings
+      // "cmd-b cmd-b": "workspace::ToggleRightDock",
+      // "cmd-b cmd-g": "terminal_panel::ToggleFocus",
+      // "cmd-b cmd-f": "pane::RevealInProjectPanel",
+
+      // Even Better Panel Keybindings
+      "cmd-b": "project_panel::ToggleFocus",
+      "cmd-t": "terminal_panel::ToggleFocus",
+      "cmd-g": "git_panel::ToggleFocus",
     },
   },
 
@@ -77,11 +92,13 @@
   {
     "context": "Editor",
     "bindings": {
+      // Panel Keybindings
+      "cmd-b": "pane::RevealInProjectPanel",
+      "cmd-t": "terminal_panel::ToggleFocus",
+      "cmd-g": "git_panel::ToggleFocus",
+
       // Zoom (needs Editor context, not Workspace)
       "shift-cmd-enter": "workspace::ToggleZoom",
-
-      // Terminal toggle
-      "cmd-shift-g": "terminal_panel::Toggle",
 
       // Scroll viewport (meh+j/k)
       "shift-ctrl-alt-j": [
@@ -142,6 +159,36 @@
   },
 
   // ============================================
+  // Terminal
+  // ============================================
+  {
+    "context": "Terminal",
+    "bindings": {
+      "cmd-b": "project_panel::ToggleFocus",
+      "cmd-t": "terminal_panel::Toggle",
+      "cmd-g": "git_panel::ToggleFocus",
+    },
+  },
+
+  // ============================================
+  // Git Panel
+  // ============================================
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "cmd-b": "project_panel::ToggleFocus",
+      "cmd-t": "terminal_panel::ToggleFocus",
+      "cmd-g": "workspace::ToggleLeftDock",
+    },
+  },
+  {
+    "context": "GitPanel > Editor",
+    "bindings": {
+      "cmd-g": "workspace::ToggleLeftDock",
+    },
+  },
+
+  // ============================================
   // Project Panel
   // ============================================
   {
@@ -150,6 +197,7 @@
       "enter": "project_panel::Rename",
       "up": "menu::SelectPrevious",
       "down": "menu::SelectNext",
+      "cmd-b": "workspace::ToggleRightDock",
     },
   },
 
@@ -170,6 +218,12 @@
     "context": "ContextEditor > Editor",
     "bindings": {
       "cmd-shift-g": null,
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-b": null,
     },
   },
 ]
